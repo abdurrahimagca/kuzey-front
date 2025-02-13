@@ -1,0 +1,19 @@
+<section class="features v-dark-head">
+    <div class="list-features">
+        <% services.forEach(function(service) { %>
+            <div class="list-item">
+                <div class="item-content text-center">
+                    <div class="icon mb-25">
+                        <img src="<%= service.icon %>" alt="">
+                    </div>
+                    <h3 class="title-block text-uppercase"><%= service.title %></h3>
+                    <div class="inner-divider"></div>
+                    <div class="text-hover">
+                        <p class="max-w570"><%= service.description %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item-bg cover-bg" data-image-src="<%= service.background %>" data-overlay="7"></div>
+        <% }); %>
+    </div>
+</section> 

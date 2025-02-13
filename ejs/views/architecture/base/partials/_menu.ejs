@@ -1,0 +1,156 @@
+<div class="site-header dsn-load-animate dsn-container">
+  <div
+    class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end"
+  >
+    <div class="inner-header p-relative">
+      <div class="main-logo">
+        <a href="index.html" data-dsn="parallax">
+          <img
+            class="light-logo"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-dsn-src="<%= menu.logo.light %>"
+            alt=""
+          />
+          <img
+            class="dark-logo"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-dsn-src="<%= menu.logo.dark %>"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+    <div class="menu-icon d-flex align-items-baseline">
+      <div class="text-menu p-relative font-heading text-transform-upper">
+        <div class="p-absolute text-button">Menu</div>
+        <div class="p-absolute text-open">Open</div>
+        <div class="p-absolute text-close">Close</div>
+      </div>
+      <div class="icon-m" data-dsn="parallax" data-dsn-move="10">
+        <span class="menu-icon-line p-relative d-inline-block icon-top"></span>
+        <span
+          class="menu-icon-line p-relative d-inline-block icon-center"
+        ></span>
+        <span class="menu-icon-line p-relative d-block icon-bottom"></span>
+      </div>
+    </div>
+    <nav
+      class="accent-menu dsn-container main-navigation p-absolute w-100 d-flex align-items-baseline"
+    >
+      <div class="menu-cover-title">Menu</div>
+      <ul
+        class="extend-container p-relative d-flex flex-column justify-content-center h-100"
+      >
+        <li class="dsn-active dsn-drop-down">
+          <a href="#" class="user-no-selection">
+            <span class="dsn-title-menu"><%= menu.demos.title %></span>
+            <span class="dsn-meta-menu"><%= menu.demos.meta %></span>
+            <span class="dsn-bg-arrow"></span>
+          </a>
+          <ul>
+            <li class="dsn-back-menu">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-dsn-src="assets/img/left-chevron.svg"
+                alt=""
+              />
+              <span class="dsn-title-menu"><%= menu.demos.title %></span>
+            </li>
+            <% menu.demos.items.forEach(function(item) { %>
+            <li>
+              <a href="<%= item.link %>">
+                <span class="dsn-title-menu"><%= item.title %></span>
+                <span class="dsn-meta-menu"><%= item.meta %></span>
+              </a>
+            </li>
+            <% }); %>
+          </ul>
+        </li>
+
+        <% menu.mainItems.forEach(function(item) { %>
+        <li <% if(item.hasDropdown) { %>
+          class="dsn-drop-down"<% } %>>
+          <a
+            href="<%= item.hasDropdown ? '#' : item.link %>"
+            <%= item.hasDropdown ? 'class="user-no-selection"' : '' %>>
+            <span class="dsn-title-menu"><%= item.title %></span>
+            <span class="dsn-meta-menu"><%= item.meta %></span>
+            <span class="dsn-bg-arrow"></span>
+          </a>
+          <% if(item.hasDropdown && item.items) { %>
+          <ul>
+            <li class="dsn-back-menu">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-dsn-src="assets/img/left-chevron.svg"
+                alt=""
+              />
+              <span class="dsn-title-menu"><%= item.title %></span>
+            </li>
+            <% item.items.forEach(function(subItem) { %>
+            <li>
+              <a href="<%= subItem.link %>">
+                <span class="dsn-title-menu"><%= subItem.title %></span>
+                <span class="dsn-meta-menu"><%= subItem.meta %></span>
+              </a>
+            </li>
+            <% }); %>
+          </ul>
+          <% } %>
+        </li>
+        <% }); %>
+      </ul>
+
+      <div
+        class="container-content p-absolute h-100 left-60 d-flex flex-column justify-content-center"
+      >
+        <div class="nav__info">
+          <div class="nav-content">
+            <p class="title-line"><%= menu.contact.studio.title %></p>
+            <p>
+              <% menu.contact.studio.address.forEach(function(line) { %> <%=
+              line %><br />
+              <% }); %>
+            </p>
+          </div>
+          <div class="nav-content">
+            <p class="title-line">Contact</p>
+            <p class="links over-hidden">
+              <a
+                href="#"
+                data-hover-text="<%= menu.contact.info.phone %>"
+                class="link-hover"
+              >
+                <%= menu.contact.info.phone %>
+              </a>
+            </p>
+            <p class="links over-hidden">
+              <a
+                href="#"
+                data-hover-text="<%= menu.contact.info.email %>"
+                class="link-hover"
+              >
+                <%= menu.contact.info.email %>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="nav-social nav-content">
+          <div class="nav-social-inner p-relative">
+            <p class="title-line"><%= menu.social.title %></p>
+            <ul>
+              <% menu.social.links.forEach(function(social) { %>
+              <li>
+                <a href="#" target="_blank" rel="nofollow">
+                  <%= social.name %>.
+                  <div class="icon-circle"></div>
+                </a>
+              </li>
+              <% }); %>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>

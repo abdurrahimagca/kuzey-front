@@ -1,0 +1,195 @@
+{
+  "header": {
+    "subtitle": "Digital Studio",
+    "title": "We Digital Creative Agency"
+  },
+  "about": {
+    "title": "ABOUT STUDIO",
+    "subtitle": "About Us",
+    "mainContent": {
+      "title": "Creating Digital Experiences that Help Grow Businesses",
+      "description": "Tom he made a sign to me — kind of a little noise with his mouth — and we went creeping away on our hands and knees. When we was ten foot off Tom whispered to me, and wanted to tie Jim to the tree for fun.",
+      "stats": [
+        {
+          "number": "50+",
+          "text": "Credibly brand standards compliant users without extensible services."
+        },
+        {
+          "number": "12",
+          "text": "Credibly brand standards compliant users without extensible services."
+        }
+      ]
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Tom he made a sign to me — kind of a little noise with his mouth — and we went creeping away on our hands and knees. When we was ten foot off Tom whispered to me, and wanted to tie Jim to the tree for fun."
+    },
+    "successful": {
+      "title": "successful and disciplined",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati autem distinctio veritatis excepturi, fugit iste repellendus, porro delectus rem ducimus cum fugiat."
+    }
+  },
+  "awards": {
+    "title": "Awards",
+    "subtitle": "Awards and recognitions",
+    "items": [
+      {
+        "year": "2013",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati autem distinctio veritatis excepturi.",
+        "link": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+      },
+      {
+        "year": "2015",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati autem distinctio veritatis excepturi.",
+        "link": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+      },
+      {
+        "year": "2020",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati autem distinctio veritatis excepturi.",
+        "link": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+      },
+      {
+        "year": "2021",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati autem distinctio veritatis excepturi.",
+        "link": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "awesome partner",
+    "subtitle": "Our clients",
+    "description": "They live in different universes. Engaging in politics or IT, making cheese or baking the most delicious cookies in the world.",
+    "items": [
+      {
+        "quality": "Design Quality",
+        "text": "The designer is just amazing! Very good quality and taste. This template is incredible beautiful. The overall impression is more than good.The support cannot be better. I wish the team all success!",
+        "author": {
+          "name": "linda miku",
+          "position": "Marketing Manager",
+          "image": "assets/img/team/1.png"
+        }
+      },
+      {
+        "quality": "Design Quality",
+        "text": "First of all, I really enjoyed setting this up. What a great layout and design. The support is fast and high quality. They really made an effort to make sure I got the help I needed. keep in mind that it is not only a great design, but also it is easy to change it up with little effort. Great Job!",
+        "author": {
+          "name": "makrand patne",
+          "position": "Web Designer",
+          "image": "assets/img/team/2.png"
+        }
+      },
+      {
+        "quality": "Design Quality",
+        "text": "This theme is awesome and the designer is very helpful. I had a few questions before purchase. He/She helped me with all the doubts. Also, they provide quick support. Thank you so much for a beautiful theme",
+        "author": {
+          "name": "MTL Graphic",
+          "position": "Graphic Design",
+          "image": "assets/img/team/3.png"
+        }
+      },
+      {
+        "quality": "Design Quality",
+        "text": "Basically im using this theme as a base for my new website and i couldnt be happier. Ran into some bumps but the team who developed this theme was there to help me with any problems. Very slick nice ajax portfolio theme",
+        "author": {
+          "name": "MTL Graphic",
+          "position": "Graphic Design",
+          "image": "assets/img/team/2.png"
+        }
+      }
+    ]
+  },
+  "team": {
+    "title": "awesome partner",
+    "subtitle": "Meet The Team",
+    "members": [
+      {
+        "name": "Ahmed Shawky",
+        "position": "Co-Founder / Design",
+        "image": "assets/img/team/2.png",
+        "socials": [
+          {
+            "icon": "fab fa-dribbble",
+            "text": "Db",
+            "link": "#"
+          },
+          {
+            "icon": "fab fa-twitter",
+            "text": "Tw",
+            "link": "#"
+          },
+          {
+            "icon": "fab fa-behance",
+            "text": "Be",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "name": "Jone Darlene",
+        "position": "CEO / Architect",
+        "image": "assets/img/team/3.png",
+        "socials": [
+          {
+            "icon": "fab fa-dribbble",
+            "text": "Db",
+            "link": "#"
+          },
+          {
+            "icon": "fab fa-twitter",
+            "text": "Tw",
+            "link": "#"
+          },
+          {
+            "icon": "fab fa-behance",
+            "text": "Be",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "name": "Martin Tyrell",
+        "position": "Architect / Designer",
+        "image": "assets/img/team/1.png",
+        "socials": [
+          {
+            "icon": "fab fa-dribbble",
+            "text": "Db",
+            "link": "#"
+          },
+          {
+            "icon": "fab fa-twitter",
+            "text": "Tw",
+            "link": "#"
+          },
+          {
+            "icon": "fab fa-behance",
+            "text": "Be",
+            "link": "#"
+          }
+        ]
+      }
+    ]
+  },
+  "brand": {
+    "title": "Our Clients",
+    "subtitle": "Your successful",
+    "description": "They live in different universes. Engaging in politics or IT, making cheese or baking the most delicious cookies in the world.",
+    "logos": [
+      "assets/img/logo/1.png",
+      "assets/img/logo/2.png",
+      "assets/img/logo/3.png",
+      "assets/img/logo/4.png",
+      "assets/img/logo/5.png",
+      "assets/img/logo/6.png"
+    ]
+  },
+  "nextPage": {
+    "title": "Let's talk about your project",
+    "description": "Do you have building plans or do you want to know more about building costs? Let's get acquainted!",
+    "button": {
+      "text": "Send Request",
+      "link": "contact.html"
+    },
+    "image": "assets/img/hous-contact.jpg"
+  }
+} 

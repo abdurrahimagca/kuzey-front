@@ -1,0 +1,56 @@
+<section class="last-project-section section-margin dsn-swiper" data-dsn-controller=".project-content"
+    data-dsn-option='{"slidesPerView":1,"centeredSlides":false }'>
+    <div class="container">
+        <div class="mb-70 p-relative">
+            <h5 class="sub-heading mb-15 pb-15"><%= projects.heading.subTitle %></h5>
+            <h2 class="section-title text-uppercase">
+                <%= projects.heading.title %>
+                <strong><%= projects.heading.strongTitle %></strong>
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="bg-project w-100">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <% projects.slides.forEach(function(slide) { %>
+                                <div class="swiper-slide">
+                                    <div class="bg-item cover-bg" data-image-src="<%= slide.image %>"></div>
+                                </div>
+                            <% }); %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-lg-6 order-md-2 order-lg-3 align-self-end">
+                <div class="project-content">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <% projects.slides.forEach(function(slide) { %>
+                                <div class="swiper-slide">
+                                    <div class="content-item">
+                                        <div class="metas d-inline-block mb-25">
+                                            <% slide.tags.forEach(function(tag) { %>
+                                                <span><%= tag %></span>
+                                            <% }); %>
+                                        </div>
+                                        <h4 class="title-block mb-25 sec-title"><%= slide.title %></h4>
+                                        <p><%= slide.description %></p>
+                                        <a href="<%= slide.link %>" class="text-link mt-25 d-flex align-item-center effect-ajax">
+                                            <span class="text text-uppercase d-flex align-item-center">More info</span>
+                                            <span class="icon d-flex align-item-center justify-content-center">
+                                                <!-- SVG içeriği -->
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            <% }); %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 

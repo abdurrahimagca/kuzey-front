@@ -1,0 +1,68 @@
+{
+  "textile": {
+    "header": {
+      "subtitle": "Tekstil Sektörü",
+      "title": "Kaliteli Tekstil Çözümleri"
+    },
+    "about": {
+      "title": "TEKSTİL SEKTÖRÜ",
+      "subtitle": "Yenilikçi Tekstil Üretimi",
+      "mainContent": {
+        "title": "Tekstil Üretiminde Uzmanlık",
+        "description": "Tekstil imalat sanayi, tarihin ilk dönemlerinde başlayan geleneksel üretimini sanayi devrimi ile birlikte kitle üretimine çevirmiş ve ülkelerin sanayileşme evrelerinde vazgeçilmez bir sanayi dalı olmuştur.",
+        "stats": [
+          {
+            "number": "30+",
+            "text": "İhracat Ülkesi"
+          },
+          {
+            "number": "20Y",
+            "text": "Sektör Deneyimi"
+          },
+          {
+            "number": "200+",
+            "text": "Aktif Müşteri"
+          },
+          {
+            "number": "5",
+            "text": "Üretim Tesisi"
+          }
+        ]
+      },
+      "mission": {
+        "title": "Tekstil Misyonumuz",
+        "description": "Geniş örme kumaş çeşitlerimizle doğruluk ve dürüstlükten taviz vermeden siz değerli müşterilerimizle bir araya gelmekten mutluluk duyuyoruz."
+      },
+      "successful": {
+        "image": "assets/img/uploads/txtl.jpg",
+        "title": "Üretim Sürecimiz",
+        "description": "Herhangi bir kumaşın pamuktan, boyalı örme kumaşa olan serüveninde tüm süreçleri planlama ekibimiz ile gerek renk takibi gerek üretim takibi yapılarak her miktara en hızlı termin ile cevap verilmektedir."
+      }
+    },
+    "testimonials": {
+      "title": "MÜŞTERİ YORUMLARI",
+      "subtitle": "Tekstil Referanslarımız",
+      "description": "Tekstil müşterilerimizin deneyimleri",
+      "items": [
+        {
+          "quality": "Profesyonellik",
+          "text": "Tekstil projelerimizde gösterdikleri profesyonel yaklaşım ve teknik bilgi ile üretim süreçlerimizi optimize etmemize büyük katkı sağladılar.",
+          "author": {
+            "name": "Mehmet Yılmaz",
+            "position": "Üretim Müdürü, Tekstil A.Ş.",
+            "image": "assets/img/uploads/p-1.webp"
+          }
+        },
+        {
+          "quality": "Kalite",
+          "text": "Ürün kalitesi ve teslimat süreleri konusunda gösterdikleri hassasiyet ile uzun vadeli iş ortağımız oldular.",
+          "author": {
+            "name": "Zeynep Kaya",
+            "position": "Satın Alma Müdürü, Moda Tekstil",
+            "image": "assets/img/uploads/p-2.jpg"
+          }
+        }
+      ]
+    }
+  }
+} 

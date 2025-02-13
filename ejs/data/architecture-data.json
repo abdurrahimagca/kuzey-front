@@ -1,0 +1,68 @@
+{
+  "architecture": {
+    "header": {
+      "subtitle": "İnşaat Sektörü",
+      "title": "Yapı ve İnşaat Çözümleri"
+    },
+    "about": {
+      "title": "İNŞAAT SEKTÖRÜ",
+      "subtitle": "Güvenilir ve Kaliteli Yapı Çözümleri",
+      "mainContent": {
+        "title": "İnşaat Sektöründe Öncü Hizmet",
+        "description": "Kuruluşumuzdan bu yana, inşaat sektöründeki öncü firmalardan biri olarak kaliteli işler üretmek için sürekli çaba gösteriyoruz. İşimize adanmışlık, deneyim ve yaratıcılık ile müşterilerimizin beklentilerini karşılamak için projelerimize özen gösteriyoruz.",
+        "stats": [
+          {
+            "number": "50+",
+            "text": "Tamamlanan Proje"
+          },
+          {
+            "number": "15Y",
+            "text": "Sektör Deneyimi"
+          },
+          {
+            "number": "100+",
+            "text": "Mutlu Müşteri"
+          },
+          {
+            "number": "10",
+            "text": "Devam Eden Proje"
+          }
+        ]
+      },
+      "mission": {
+        "title": "İnşaat Misyonumuz",
+        "description": "Firmamız, geniş bir yelpazede inşaat hizmetleri sunmaktadır. Müşterilerimizin ihtiyaçlarını anlamak ve ihtiyaçlarına yönelik en uygun çözümleri üretmek için projelerimize özenle yaklaşıyoruz."
+      },
+      "successful": {
+        "image": "assets/img/uploads/arch.jpg",
+        "title": "Neden Bizi Seçmelisiniz",
+        "description": "İnşaat projelerinde kalite, bütünlük ve zamanında teslimat konularında inanılmaz bir üne sahibiz. Eğitimli ve deneyimli personelimiz, her projeyi baştan sona tamamlamak için gerekli araç ve donanıma sahiptir."
+      }
+    },
+    "testimonials": {
+      "title": "MÜŞTERİ YORUMLARI",
+      "subtitle": "İnşaat Referanslarımız",
+      "description": "İnşaat projelerimizden bazı müşteri değerlendirmeleri",
+      "items": [
+        {
+          "quality": "Kalite",
+          "text": "İnşaat projemizin her aşamasında gösterdikleri titiz çalışma ve zamanında teslimat bizim için çok değerliydi.",
+          "author": {
+            "name": "Ayşe Demir",
+            "position": "Proje Müdürü, İnşaat Ltd.",
+            "image": "assets/img/uploads/p-1.webp"
+          }
+        },
+        {
+          "quality": "Güvenilirlik",
+          "text": "Konut projemizde gösterdikleri profesyonellik ve kalite odaklı yaklaşım gerçekten etkileyiciydi.",
+          "author": {
+            "name": "Mehmet Yıldız",
+            "position": "Yönetim Kurulu Başkanı, Yıldız İnşaat",
+            "image": "assets/img/uploads/p-2.jpg"
+          }
+        }
+      ]
+    }
+  }
+} 

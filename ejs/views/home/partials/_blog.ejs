@@ -1,0 +1,42 @@
+<div class="our-blog p-relative section-padding v-light">
+    <div class="container mb-70 p-relative">
+        <h5 class="sub-heading mb-15 pb-15"><%= blog.heading.subHeading %></h5>
+        <h2 class="section-title text-uppercase">
+            <%= blog.heading.title %> 
+            <strong><%= blog.heading.strongTitle %></strong>
+        </h2>
+    </div>
+    <div class="container">
+        <div class="d-grid grid-md-3 grid-sm-2">
+            <% blog.posts.forEach(function(post) { %>
+                <div class="blog-item">
+                    <div class="">
+                        <div class="box-img p-relative">
+                            <img class="cover-bg-img" src="<%= post.image %>" alt="">
+                        </div>
+                        <div class="content pt-20">
+                            <div class="blog-meta p-relative mb-15 text-uppercase">
+                                <span class="d-inline-block">
+                                    <a href="#"><%= post.date %></a>
+                                </span>
+                                <span class="d-inline-block">
+                                    <a href="#"><%= post.category %></a>
+                                </span>
+                            </div>
+                            <h4 class="title-block">
+                                <a href="<%= post.link %>" class="effect-ajax"><%= post.title %></a>
+                            </h4>
+                            <p class="mt-15"><%= post.description %></p>
+                            <a href="<%= post.link %>" class="effect-ajax text-link mt-20 d-flex align-item-center">
+                                <span class="text text-uppercase d-flex align-item-center">More info</span>
+                                <span class="icon d-flex align-item-center justify-content-center">
+                                    <!-- SVG içeriği -->
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+</div> 

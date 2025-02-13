@@ -1,0 +1,51 @@
+<div class="box-seat overflow-hidden">
+    <div class="box-desc v-light pt-section" data-dsn-animate="section">
+        <div class="container">
+            <div class="fill-right-container">
+                <div class="row m-0">
+                    <div class="col-lg-6">
+                        <div class="left-box pr-60">
+                            <div class="mb-30 p-relative">
+                                <h5 class="sub-heading mb-15 pb-15"><%= awards.leftBox.subHeading %></h5>
+                                <h2 class="section-title text-uppercase">
+                                    <%= awards.leftBox.title %> <br>
+                                    <strong><%= awards.leftBox.strongTitle %></strong>
+                                </h2>
+                            </div>
+                            <p class="max-w570"><%= awards.leftBox.description %></p>
+                            <div class="exper heading-color mt-30">
+                                <span class="has-animate-number"><%= awards.leftBox.experience.years %></span>
+                                <h5 class="sm-title-block"><%= awards.leftBox.experience.text %></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 pr-0 pl-0">
+                        <div class="right-box background-section section-padding pl-60 pr-60">
+                            <div class="mb-30 p-relative">
+                                <h5 class="sub-heading mb-15 pb-15"><%= awards.rightBox.subHeading %></h5>
+                                <h2 class="section-title text-uppercase">
+                                    <%= awards.rightBox.title %> 
+                                    <strong><%= awards.rightBox.strongTitle %></strong>
+                                </h2>
+                            </div>
+
+                            <% awards.rightBox.stats.forEach(function(stat) { %>
+                                <div class="fact-item d-flex">
+                                    <div class="number d-flex align-items-center mr-15">
+                                        <span class="title has-animate-number"><%= stat.number %></span>
+                                        <span class="sm-title-block">+</span>
+                                    </div>
+                                    <div class="text">
+                                        <h4 class="title-block mb-15"><%= stat.title %></h4>
+                                        <p><%= stat.description %></p>
+                                    </div>
+                                </div>
+                            <% }); %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

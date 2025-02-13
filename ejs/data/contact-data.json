@@ -1,0 +1,38 @@
+{
+  "contact": {
+    "header": {
+      "subtitle": "Birlikte Çalışalım",
+      "title": "Projeleriniz için <br> hazırız"
+    },
+    "info": {
+      "heading": "İletişim",
+      "title": {
+        "main": "Kuzey",
+        "bold": "Global"
+      },
+      "description": "Projeleriniz ve fikirleriniz için her zaman yanınızdayız. Herhangi bir sorunuz varsa veya bilgi almak isterseniz, lütfen bizimle iletişime geçmekten çekinmeyin. Sizinle görüşmekten mutluluk duyarız."
+    },
+    "offices": [
+      {
+        "name": "İstanbul Merkez Ofis",
+        "address": "Marmara Cd. Hürriyet Blv. <br> İstanbul/Türkiye",
+        "phone": "+90 533 888 88 88"
+      },
+      {
+        "name": "Ankara Şube",
+        "address": "Kızılay Meydanı, <br> Ankara/Türkiye",
+        "phone": "+90 533 777 77 77"
+      },
+      {
+        "name": "İzmir Şube",
+        "address": "Alsancak Mahallesi, <br> İzmir/Türkiye",
+        "phone": "+90 533 666 66 66"
+      }
+    ],
+    "map": {
+      "latitude": "41.0082",
+      "longitude": "28.9784",
+      "zoom": "14"
+    }
+  }
+}

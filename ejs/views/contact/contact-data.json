@@ -1,0 +1,64 @@
+{
+  "contact": {
+    "header": {
+      "subtitle": "Let's Work Together",
+      "title": "ready to <br> get started?"
+    },
+    "info": {
+      "heading": "Contact Us",
+      "title": {
+        "main": "Arctit",
+        "bold": "Studio"
+      },
+      "description": "We are always interested in looking at the possibilities together. If you have any questions or would like general information, please do not hesitate to contact us. We are happy to talk to you."
+    },
+    "offices": [
+      {
+        "name": "Office Egypt",
+        "address": "Schaijksestraat 2 <br> 5375 KC Reek",
+        "phone": "+ 123-456-7890"
+      },
+      {
+        "name": "Office Dubai",
+        "address": "3565 Main Beach Parade, <br> Main Beach",
+        "phone": "+ 123-456-7890"
+      },
+      {
+        "name": "Office Egypt",
+        "address": "3565 Main Beach Parade, <br> Main Beach",
+        "phone": "+ 123-456-7890"
+      }
+    ],
+    "form": {
+      "fields": [
+        {
+          "name": "name",
+          "type": "text",
+          "placeholder": "What's Your Name",
+          "error": "name is required.",
+          "width": 6
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "placeholder": "Your Email",
+          "error": "Valid email is required.",
+          "width": 6
+        },
+        {
+          "name": "message",
+          "type": "textarea",
+          "placeholder": "Tell Us About Your Project",
+          "error": "Please,leave us a message.",
+          "width": 12
+        }
+      ],
+      "submitText": "Send"
+    },
+    "map": {
+      "latitude": "30.0489206",
+      "longitude": "31.258553",
+      "zoom": "14"
+    }
+  }
+} 

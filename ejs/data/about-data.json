@@ -1,0 +1,117 @@
+{
+  "header": {
+    "subtitle": "Kuzey Global",
+    "title": "Güvenilir ve Kaliteli Hizmet"
+  },
+  "about": {
+    "header": {
+      "subtitle": "Kuzey Global",
+      "title": "Güvenilir ve Kaliteli Hizmet"
+    },
+    "about": {
+      "title": "HAKKIMIZDA",
+      "subtitle": "Kuzey Global",
+      "mainContent": {
+        "title": "Hayatlara Değer Katan Çözümler",
+        "description": "Kuzey Global olarak hayatlara değer katmak ve sektöründe güvenilir, kaliteli olmak hedefiyle yolculuğuna başladı. Şirket olarak uzun yıllardır tekstil ve inşaat sektöründe faaliyet göstermekteyiz. Şirketimiz tekstil ve inşaat piyasasında markalaşmanın sembol firmalarından olmak için cesur ve yenilikçi adımlarla ilerlemektedir.",
+        "stats": [
+          {
+            "number": "25+",
+            "text": "Yıllık sektör deneyimi ile müşterilerimize kaliteli hizmet sunuyoruz."
+          },
+          {
+            "number": "200+",
+            "text": "Deneyimli çalışanımız ile projelerinizi başarıyla tamamlıyoruz."
+          }
+        ]
+      },
+      "mission": {
+        "title": "Misyonumuz",
+        "description": "• En yeni teknolojileri kullanarak, kullanıcı dostu çözümler üretmek ve herkesin yaşamını kolaylaştırmak\n• İnsanların hayatını daha iyi, daha konforlu ve daha sürdürülebilir hale getirmek için yenilikçi ve çevre dostu yapılar yapmak\n• Tekstil sektöründe sürdürülebilirlik ve yenilikçilik prensiplerini benimseyerek kaliteli ürünler sunmak\n• Müşteri odaklı yaklaşımıyla çözümler sunmak, topluma değer katmak ve sürdürülebilir bir büyüme sağlamak"
+      },
+      "successful": {
+        "title": "Vizyonumuz",
+        "description": "• Sektörlerinde Türkiye'nin bir numaralı şirketi olmak\n• Hizmet ve ürün kalitesiyle müşterilerinin birinci tercihi olarak sürekliliği sağlamak\n• Farklılıklar yaratarak kalıcı üstünlükler sağlamak\n• Ülkemizde değerlerine sahip çıkarak daha bilinçli bir toplum oluşmasına katkıda bulunmak"
+      }
+    },
+    "awards": {
+      "title": "Başarılarımız",
+      "subtitle": "Ödüller ve Başarılar",
+      "items": [
+        {
+          "year": "2023",
+          "description": "Sürdürülebilir İş Modeli Ödülü",
+          "link": "Tekstil sektöründe sürdürülebilir üretim uygulamaları"
+        },
+        {
+          "year": "2022",
+          "description": "Kalite Yönetim Başarı Ödülü",
+          "link": "İnşaat sektöründe kalite standartları uygulamaları"
+        },
+        {
+          "year": "2021",
+          "description": "Müşteri Memnuniyeti Ödülü",
+          "link": "Koşulsuz müşteri memnuniyeti garantisi uygulaması"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Referanslarımız",
+      "subtitle": "Değerli Müşterilerimiz",
+      "description": "Müşteri memnuniyetini en üst düzeyde tutarak, kaliteli hizmet sunmaya devam ediyoruz.",
+      "items": [
+        {
+          "quality": "Hizmet Kalitesi",
+          "text": "Kuzey Global ile çalışmak gerçekten çok profesyonel bir deneyimdi. Sundukları hizmet kalitesi ve müşteri odaklı yaklaşımları takdire şayan.",
+          "author": {
+            "name": "Ahmet Yılmaz",
+            "position": "Genel Müdür",
+            "image": "assets/img/team/1.png"
+          }
+        }
+      ]
+    },
+    "team": {
+      "title": "Ekibimiz",
+      "subtitle": "Profesyonel Kadromuz",
+      "members": [
+        {
+          "name": "Mehmet Kaya",
+          "position": "Genel Müdür",
+          "image": "assets/img/team/2.png",
+          "socials": [
+            {
+              "icon": "fab fa-linkedin",
+              "text": "Ln",
+              "link": "#"
+            },
+            {
+              "icon": "fab fa-twitter",
+              "text": "Tw",
+              "link": "#"
+            }
+          ]
+        }
+      ]
+    },
+    "brand": {
+      "title": "İş Ortaklarımız",
+      "subtitle": "Güvenilir Çözüm Ortakları",
+      "description": "Sektörün önde gelen firmaları ile güçlü iş birlikleri kurarak müşterilerimize en iyi hizmeti sunuyoruz.",
+      "logos": [
+        "assets/img/logo/1.png",
+        "assets/img/logo/2.png",
+        "assets/img/logo/3.png"
+      ]
+    },
+    "nextPage": {
+      "title": "Projeleriniz için bizimle iletişime geçin",
+      "description": "Size en uygun çözümleri sunmak için buradayız. Hemen iletişime geçin!",
+      "button": {
+        "text": "İletişime Geç",
+        "link": "contact.html"
+      },
+      "image": "assets/img/hous-contact.jpg"
+    }
+  }
+}

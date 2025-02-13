@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="discrption" content="parallax one page" />
+    <meta
+      name="keyword"
+      content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple"
+    />
+
+    <!--  Title -->
+    <title>Kuzey Global</title>
+
+    <!-- Font Google -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+    <!-- custom styles (optional) -->
+    <link href="assets/css/plugins.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body
+    class="v-dark dsn-effect-scroll dsn-cursor-effect dsn-ajax classic-menu"
+  >
+    <!-- ========== Loading Page ========== -->
+    <div class="preloader">
+      <div class="dsnload p-absolute">
+        <span class="dsnload__row">
+          <span class="dsnload__img">
+            <img src="assets/img/logo.png" alt="" />
+          </span>
+        </span>
+        <span class="dsnload__row dsnload__row--sibling">
+          <span class="dsnload__img">
+            <img src="assets/img/logo.png" alt="" />
+          </span>
+        </span>
+        <span class="dsnload__row dsnload__row--sibling">
+          <span class="dsnload__img">
+            <img src="assets/img/logo.png" alt="" />
+          </span>
+        </span>
+        <span class="dsnload__row dsnload__row--sibling">
+          <span class="dsnload__img">
+            <img src="assets/img/logo.png" alt="" />
+          </span>
+        </span>
+      </div>
+
+      <div class="loading-circle">
+        <p class="loading-count">
+          <span class="percent" id="loadingNumber">0</span>
+        </p>
+      </div>
+
+      <span class="loading-text text-uppercase mt-30">Loading ...</span>
+    </div>
+    <!-- ========== End Loading Page ========== -->
+
+    <!-- ========== Menu ========== -->
+    <%- include('./partials/_menu.ejs') %>
+    <!-- ========== End Menu ========== -->
+
+    <main class="main-root">
+      <div id="dsn-scrollbar">
+        <%- include('../textile.ejs') %> <%-
+        include('./partials/_footer.ejs') %>
+      </div>
+    </main>
+
+    <!-- ========== End Cursor Page ========== -->
+
+    <!-- ========== Scroll Right Page To Top Page ========== -->
+    <div class="scroll-to-top">
+      <img src="assets/img/scroll_top.svg" alt="" />
+      <div class="box-number v-middle">
+        <span>0%</span>
+      </div>
+    </div>
+    <!-- ========== End Scroll Right Page To Top Page ========== -->
+
+    <!-- Optional JavaScript -->
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/dsn-grid.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

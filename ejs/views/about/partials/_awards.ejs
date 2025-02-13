@@ -1,0 +1,28 @@
+<section class="awards section-margin">
+    <div class="container mb-70 p-relative">
+        <h5 class="sub-heading mb-15 pb-15"><%= about.awards.title %></h5>
+        <h2 class="section-title text-uppercase"><%= about.awards.subtitle %></h2>
+    </div>
+
+    <div class="container">
+        <div class="d-grid grid-lg-2">
+            <div class="box-info">
+                <% about.awards.items.forEach(function(award) { %>
+                    <div class="info-item d-flex mb-30">
+                        <div class="years">
+                            <h4 class="sm-title-block before-line-sm"><%= award.year %></h4>
+                        </div>
+                        <div class="text">
+                            <p class="mb-15"><%= award.description %></p>
+                            <a href="#"><%= award.link %></a>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+
+            <div class="box-img d-flex h-100">
+                <%- include('./_award-images') %>
+            </div>
+        </div>
+    </div>
+</section> 

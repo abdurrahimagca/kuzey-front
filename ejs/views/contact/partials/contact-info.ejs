@@ -1,0 +1,24 @@
+<div class="container mb-50 p-relative">
+    <h5 class="sub-heading mb-15 pb-15"><%- contact.info.heading %></h5>
+    <h2 class="section-title text-uppercase">
+        <%- contact.info.title.main %> <strong><%- contact.info.title.bold %></strong>
+    </h2>
+    <p class="sm-title-block pb-50 border-bottom mt-20"><%- contact.info.description %></p>
+</div>
+
+<div class="container">
+    <div class="d-grid grid-md-3 grid-sm-2 mt-50 pb-50 border-bottom">
+        <% contact.offices.forEach(function(office) { %>
+            <div class="item">
+                <h4 class="subtitle p-relative line-shap line-shap-after mb-15 text-uppercase">
+                    <span class="p-10 background-main"><%- office.name %></span>
+                </h4>
+                <p class="sm-title-block"><%- office.address %></p>
+                <a href="tel:<%- office.phone %>" class="mt-15 theme-color">
+                    <i class="fas fa-mobile"></i>
+                    <span class="ml-5"><%- office.phone %></span>
+                </a>
+            </div>
+        <% }); %>
+    </div>
+</div> 

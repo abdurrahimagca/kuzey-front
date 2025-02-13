@@ -1,0 +1,21 @@
+networks:
+  traefik-public:
+    external: true
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: kuzey-nginx
+    networks:
+      - traefik-public
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.kuzey-prev.rule=Host(`kuzey-prev.homelab-kaleici.space`)"
+      - "traefik.http.routers.kuzey-prev.tls=true"
+      - "traefik.http.routers.kuzey-prev.tls.certresolver=cloudflare"
+      - "traefik.http.routers.kuzey-prev.entrypoints=websecure"
+      - "traefik.http.services.kuzey-prev.loadbalancer.server.port=80"
+    

@@ -1,0 +1,29 @@
+<div class="brand section-margin p-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 d-flex flex-column justify-content-center">
+                <div class="box-title p-relative sm-mb-title">
+                    <h5 class="sub-heading mb-15 pb-15"><%= about.brand.title %></h5>
+                    <h2 class="section-title mb-15 text-uppercase"><%= about.brand.subtitle %></h2>
+                    <p class="max-w570"><%= about.brand.description %></p>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="brand-inner">
+                    <div class="brand-grid d-grid grid-md-3 grid-sm-2 d-grid-no-space">
+                        <% about.brand.logos.forEach(function(logo) { %>
+                            <div class="brand-item d-flex align-item-center text-center p-relative p-15">
+                                <div class="logo-box-inner">
+                                    <a href="#">
+                                        <img class="cover-bg-img" src="<%= logo %>" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        <% }); %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

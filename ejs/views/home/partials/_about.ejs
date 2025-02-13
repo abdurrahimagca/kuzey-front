@@ -1,0 +1,48 @@
+<section class="about-block section-padding over-hidden background-section">
+    <div class="container">
+        <div class="d-grid grid-lg-2">
+            <div class="box-text">
+                <div class="mb-30 p-relative">
+                    <h5 class="sub-heading mb-15 pb-15"><%= about.subHeading %></h5>
+                    <h2 class="section-title text-uppercase">
+                        <%= about.title %> 
+                        <strong><%= about.strongTitle %></strong>
+                    </h2>
+                </div>
+
+                <% about.description.forEach(function(desc) { %>
+                    <p class="max-w570 dsn-up mb-10"><%= desc %></p>
+                <% }); %>
+
+                <div class="process-block background-main mt-30">
+                    <% about.process.forEach(function(step) { %>
+                        <span><%= step %></span>
+                    <% }); %>
+                </div>
+
+                <div class="d-grid grid-sm-2 d-grid-no-space mt-30">
+                    <% about.features.forEach(function(list) { %>
+                        <ul class="lest-icon">
+                            <% list.forEach(function(item) { %>
+                                <li><%= item %></li>
+                            <% }); %>
+                        </ul>
+                    <% }); %>
+                </div>
+            </div>
+
+            <div class="img-box d-grid grid-sm-2">
+                <div class="box-img">
+                    <div class="inner">
+                        <img src="<%= about.images.main %>" alt="">
+                    </div>
+                </div>
+                <div class="box-img d-flex flex-column justify-content-end">
+                    <div class="inner">
+                        <img src="<%= about.images.secondary %>" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 

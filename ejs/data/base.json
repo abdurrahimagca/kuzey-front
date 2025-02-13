@@ -1,0 +1,96 @@
+{
+  "menu": {
+    "logo": {
+      "light": "assets/img/logo.png",
+      "dark": "assets/img/logo-dark.png"
+    },
+    "demos": {
+      "title": "Sektörlerimiz",
+      "meta": "01",
+      "link": "index.html",
+      "items": [
+        {
+          "title": "İnşaat",
+          "link": "architecture.html"
+        },
+        {
+          "title": "Tekstil",
+          "link": "textile.html"
+        }
+      ]
+    },
+    "mainItems": [
+      {
+        "title": "Hakkımızda",
+        "meta": "02",
+        "link": "about.html"
+      },
+      {
+        "title": "İletişim",
+        "meta": "04",
+        "link": "contact.html"
+      }
+    ],
+    "contact": {
+      "studio": {
+        "title": "Kuzey Global",
+        "address": ["Marmara Cd. Hürriyet Blv.", "İstanbul/Türkiye"]
+      },
+      "info": {
+        "phone": "+90 533 888 88 88",
+        "email": "info@kuzeyglobal.com"
+      }
+    },
+    "social": {
+      "title": "Follow us",
+      "links": [
+        {
+          "name": "Linkedin",
+          "shortcode": "Ln",
+          "icon": "fab fa-linkedin"
+        },
+        {
+          "name": "Twitter",
+          "shortcode": "Tw",
+          "icon": "fab fa-twitter"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "logo": {
+      "light": "assets/img/logo.png",
+      "dark": "assets/img/logo.png",
+      "link": "#"
+    },
+    "address": {
+      "title": "Adres",
+      "lines": ["Marmara Cd. Hürriyet Blv.", "İstanbul/Türkiye"]
+    },
+    "navigation": {
+      "title": "Navigasyon",
+      "links": [
+        { "text": "Galeri", "url": "#" },
+        { "text": "Hakkımızda", "url": "#" },
+        { "text": "İletişim", "url": "#" }
+      ]
+    },
+    "social": {
+      "links": [
+        {
+          "name": "Twitter",
+          "shortcode": "Tw",
+          "icon": "fab fa-twitter",
+          "url": "#"
+        }
+      ]
+    },
+    "copyright": {
+      "text": "© 2025 Kuzey Global",
+      "link": {
+        "text": "Kuzey Global",
+        "url": "#"
+      }
+    }
+  }
+}

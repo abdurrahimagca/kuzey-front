@@ -1,0 +1,173 @@
+{
+  "about": {
+    "subHeading": "Hakkımızda",
+    "title": "Kuzey Global",
+    "strongTitle": "Güvenilir ve Kaliteli Hizmet",
+    "description": [
+      "Kuzey Global olarak hayatlara değer katmak ve sektöründe güvenilir, kaliteli olmak hedefiyle yolculuğuna başladı. Şirket olarak uzun yıllardır tekstil ve inşaat sektöründe faaliyet göstermekteyiz. Şirketimiz tekstil ve inşaat piyasasında markalaşmanın sembol firmalarından olmak için cesur ve yenilikçi adımlarla bugüne kadar faaliyet gösterdiği her alanda bu hedefine ulaşmak için emin adımlarla ilerlemektedir.",
+      "Kazancını yatırıma dönüştürmeyi prensip edinen firmamız, örme kumaş konusunda dünya standardında trendlerin takipçisi kalarak altyapısı ve yüksek verimli sistemleriyle her zaman kaliteli ve kesintisiz hizmet sunmuş, bu şekilde müşterilerine verdiği önemi göstermiştir.",
+      "İnşaat sektöründe marka kavramının da ötesine geçmek için günümüzde hem girişimci hem yüklenici hem de üretici olarak faaliyetlerine devam ediyor. İnşa ettiği binaları sahiplerine \"Koşulsuz Müşteri Memnuniyeti Garantisi\" ile teslim eden şirketimiz bu konuda kalite ve güveni sağlamaktadır."
+    ],
+    "process": [
+      "En yeni teknolojileri kullanarak, kullanıcı dostu çözümler üretmek",
+      "Yenilikçi ve çevre dostu yapılar yapmak",
+      "Sürdürülebilir büyüme sağlamak"
+    ],
+    "features": [
+      ["Sektörlerinde lider", "Müşteri odaklı yaklaşım", "Kaliteli hizmet"],
+      ["Yenilikçi çözümler", "Sürdürülebilir büyüme", "Toplumsal değer"]
+    ],
+    "images": {
+      "main": "assets/img/about.jpg",
+      "secondary": "assets/img/about-2.jpg"
+    }
+  },
+  "services": [
+    {
+      "icon": "assets/img/services/1.png",
+      "title": "İNŞAAT",
+      "description": "Yenilikçi ve çevre dostu yapılar inşa ederek, insanların hayatını daha konforlu ve sürdürülebilir hale getiriyoruz.",
+      "background": "assets/img/project/project1/1.jpg"
+    },
+    {
+      "icon": "assets/img/services/2.png",
+      "title": "TEKSTİL",
+      "description": "Sürdürülebilirlik ve yenilikçilik prensiplerini benimseyerek, dünya standartlarında kaliteli ürünler sunuyoruz.",
+      "background": "assets/img/project/project2/1.jpg"
+    },
+    {
+      "icon": "assets/img/services/3.png",
+      "title": "YATIRIM",
+      "description": "Kazancımızı yatırıma dönüştürmeyi prensip edinerek, sürdürülebilir büyüme hedefiyle çalışıyoruz.",
+      "background": "assets/img/project/project3/1.jpg"
+    }
+  ],
+  "projects": {
+    "heading": {
+      "subTitle": "PROJELERİMİZ",
+      "title": "BAŞARILI",
+      "strongTitle": "ÇALIŞMALAR"
+    },
+    "slides": [
+      {
+        "image": "assets/img/project/project1/3.jpg",
+        "tags": ["İnşaat", "Mimari"],
+        "title": "Modern Yaşam Alanları",
+        "description": "Koşulsuz Müşteri Memnuniyeti Garantisi ile teslim ettiğimiz projelerimizde kalite ve güveni ön planda tutuyoruz.",
+        "link": "project.html"
+      },
+      {
+        "image": "assets/img/project/project2/2.jpg",
+        "tags": ["Tekstil", "Üretim"],
+        "title": "Tekstil Üretim Tesisi",
+        "description": "Dünya standartlarında üretim yapan tesislerimizde yüksek verimli sistemler ile kesintisiz hizmet sunuyoruz.",
+        "link": "project-2.html"
+      }
+    ]
+  },
+  "awards": {
+    "video": {
+      "url": "https://vimeo.com/175353205",
+      "thumbnail": "assets/img/project/project5/1.jpg"
+    },
+    "leftBox": {
+      "subHeading": "Başarılarımız",
+      "title": "Ödüller ve",
+      "strongTitle": "Başarılar",
+      "description": "Sektörlerinde Türkiye'nin önde gelen şirketlerinden biri olma yolunda emin adımlarla ilerliyoruz.",
+      "experience": {
+        "years": "25",
+        "text": "YILLIK SEKTÖR DENEYİMİ"
+      }
+    },
+    "rightBox": {
+      "subHeading": "UZMANLIK ALANLARI",
+      "title": "Kilometre",
+      "strongTitle": "Taşlarımız",
+      "stats": [
+        {
+          "number": "200",
+          "title": "Çalışan",
+          "description": "Deneyimli ve uzman kadromuzla müşterilerimize en iyi hizmeti sunuyoruz."
+        },
+        {
+          "number": "60",
+          "title": "Proje Yöneticisi",
+          "description": "Profesyonel yönetim kadromuzla projelerimizi başarıyla tamamlıyoruz."
+        },
+        {
+          "number": "07",
+          "title": "Şube",
+          "description": "Türkiye'nin farklı noktalarında hizmet veren şubelerimizle yanınızdayız."
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "heading": {
+      "subHeading": "Referanslarımız",
+      "title": "Değerli",
+      "strongTitle": "Müşterilerimiz",
+      "description": "Müşteri memnuniyetini en üst düzeyde tutarak, kaliteli hizmet sunmaya devam ediyoruz."
+    },
+    "items": [
+      {
+        "quality": "Hizmet Kalitesi",
+        "text": "Kuzey Global ile çalışmak gerçekten çok profesyonel bir deneyimdi. Sundukları hizmet kalitesi ve müşteri odaklı yaklaşımları takdire şayan.",
+        "author": {
+          "image": "assets/img/team/1.png",
+          "name": "Ahmet Yılmaz",
+          "position": "Genel Müdür"
+        }
+      }
+    ]
+  },
+  "blog": {
+    "heading": {
+      "subHeading": "Haberler",
+      "title": "Son",
+      "strongTitle": "Gelişmeler"
+    },
+    "posts": [
+      {
+        "image": "assets/img/blog/1.jpg",
+        "date": "1 Mart 2024",
+        "category": "Kurumsal",
+        "title": "Yeni Projelerimiz",
+        "description": "Sürdürülebilir büyüme hedefimiz doğrultusunda yeni projelerimizi hayata geçiriyoruz.",
+        "link": "post.html"
+      }
+    ]
+  },
+  "skills": {
+    "background": {
+      "image": "assets/img/project/project2/5-sm.jpg",
+      "largeImage": "assets/img/header.jpg"
+    },
+    "items": [
+      {
+        "value": "0.80",
+        "title": "MÜŞTERİ MEMNUNİYETİ",
+        "description": "Koşulsuz müşteri memnuniyeti garantisi ile hizmet veriyoruz"
+      },
+      {
+        "value": "0.90",
+        "title": "KALİTE STANDARTLARI",
+        "description": "En yüksek kalite standartlarında üretim ve hizmet sunuyoruz"
+      }
+    ]
+  },
+  "brands": {
+    "items": [
+      { "image": "assets/img/logo/1.png" },
+      { "image": "assets/img/logo/2.png" },
+      { "image": "assets/img/logo/3.png" }
+    ]
+  },
+  "contact": {
+    "image": "assets/img/hous-contact.jpg",
+    "title": "Projeleriniz için",
+    "strongTitle": "bizimle iletişime geçin",
+    "description": "Size en uygun çözümleri sunmak için buradayız. Hemen iletişime geçin!"
+  }
+}
