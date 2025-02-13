@@ -6,8 +6,8 @@
     },
     "demos": {
       "title": "Sektörlerimiz",
-      "meta": "01",
-      "link": "index.html",
+      "meta": "02",
+      "link": "#",
       "items": [
         {
           "title": "İnşaat",
@@ -21,8 +21,13 @@
     },
     "mainItems": [
       {
+        "title": "Anasayfa",
+        "meta": "01",
+        "link": "index.html"
+      },
+      {
         "title": "Hakkımızda",
-        "meta": "02",
+        "meta": "03",
         "link": "about.html"
       },
       {

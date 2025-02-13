@@ -41,7 +41,40 @@
       <ul
         class="extend-container p-relative d-flex flex-column justify-content-center h-100"
       >
-        <li class="dsn-active dsn-drop-down">
+        <% menu.mainItems.slice(0,1).forEach(function(item) { %>
+        <li <% if(item.hasDropdown) { %>
+          class="dsn-drop-down"<% } %>>
+          <a
+            href="<%= item.hasDropdown ? '#' : item.link %>"
+            <%= item.hasDropdown ? 'class="user-no-selection"' : '' %>>
+            <span class="dsn-title-menu"><%= item.title %></span>
+            <span class="dsn-meta-menu"><%= item.meta %></span>
+            <span class="dsn-bg-arrow"></span>
+          </a>
+          <% if(item.hasDropdown && item.items) { %>
+          <ul>
+            <li class="dsn-back-menu">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-dsn-src="assets/img/left-chevron.svg"
+                alt=""
+              />
+              <span class="dsn-title-menu"><%= item.title %></span>
+            </li>
+            <% item.items.forEach(function(subItem) { %>
+            <li>
+              <a href="<%= subItem.link %>">
+                <span class="dsn-title-menu"><%= subItem.title %></span>
+                <span class="dsn-meta-menu"><%= subItem.meta %></span>
+              </a>
+            </li>
+            <% }); %>
+          </ul>
+          <% } %>
+        </li>
+        <% }); %>
+
+        <li class="dsn-drop-down">
           <a href="#" class="user-no-selection">
             <span class="dsn-title-menu"><%= menu.demos.title %></span>
             <span class="dsn-meta-menu"><%= menu.demos.meta %></span>
@@ -67,7 +100,7 @@
           </ul>
         </li>
 
-        <% menu.mainItems.forEach(function(item) { %>
+        <% menu.mainItems.slice(1).forEach(function(item) { %>
         <li <% if(item.hasDropdown) { %>
           class="dsn-drop-down"<% } %>>
           <a
