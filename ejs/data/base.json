@@ -31,8 +31,13 @@
         "link": "about.html"
       },
       {
-        "title": "İletişim",
+        "title": "Galeri",
         "meta": "04",
+        "link": "gallery.html"
+      },  
+      {
+        "title": "İletişim",
+        "meta": "05",
         "link": "contact.html"
       }
     ],
@@ -45,21 +50,6 @@
         "phone": "+90 533 888 88 88",
         "email": "info@kuzeyglobal.com"
       }
-    },
-    "social": {
-      "title": "Follow us",
-      "links": [
-        {
-          "name": "Linkedin",
-          "shortcode": "Ln",
-          "icon": "fab fa-linkedin"
-        },
-        {
-          "name": "Twitter",
-          "shortcode": "Tw",
-          "icon": "fab fa-twitter"
-        }
-      ]
     }
   },
   "footer": {
@@ -78,16 +68,6 @@
         { "text": "Galeri", "url": "#" },
         { "text": "Hakkımızda", "url": "#" },
         { "text": "İletişim", "url": "#" }
-      ]
-    },
-    "social": {
-      "links": [
-        {
-          "name": "Twitter",
-          "shortcode": "Tw",
-          "icon": "fab fa-twitter",
-          "url": "#"
-        }
       ]
     },
     "copyright": {

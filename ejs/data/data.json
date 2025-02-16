@@ -2,16 +2,17 @@
   "about": {
     "subHeading": "Hakkımızda",
     "title": "Kuzey Global",
-    "strongTitle": "Güvenilir ve Kaliteli Hizmet",
+    "strongTitle": "GÜVENİLİR VE KALİTELİ HİZMET",
     "description": [
-      "Kuzey Global olarak hayatlara değer katmak ve sektöründe güvenilir, kaliteli olmak hedefiyle yolculuğuna başladı. Şirket olarak uzun yıllardır tekstil ve inşaat sektöründe faaliyet göstermekteyiz. Şirketimiz tekstil ve inşaat piyasasında markalaşmanın sembol firmalarından olmak için cesur ve yenilikçi adımlarla bugüne kadar faaliyet gösterdiği her alanda bu hedefine ulaşmak için emin adımlarla ilerlemektedir.",
-      "Kazancını yatırıma dönüştürmeyi prensip edinen firmamız, örme kumaş konusunda dünya standardında trendlerin takipçisi kalarak altyapısı ve yüksek verimli sistemleriyle her zaman kaliteli ve kesintisiz hizmet sunmuş, bu şekilde müşterilerine verdiği önemi göstermiştir.",
-      "İnşaat sektöründe marka kavramının da ötesine geçmek için günümüzde hem girişimci hem yüklenici hem de üretici olarak faaliyetlerine devam ediyor. İnşa ettiği binaları sahiplerine \"Koşulsuz Müşteri Memnuniyeti Garantisi\" ile teslim eden şirketimiz bu konuda kalite ve güveni sağlamaktadır."
+      "imza attığı tüm projelerle ve ürettiği tüm ürünlerle yeni ve modern Türkiye’nin gayrimenkul ve tekstil sektöründe adından söz ettirmeyi kendine görev olarak üstlenmiştir. Bulunduğu bölgelere değer katan nitelikli yaşam alanları inşa etmekte, tüketicilerin hayatına renk katan örme kumaş üretmekteyiz. Gerçekleştirdiğimiz her aktivitenin temelinde, tanımlanmış şirket değerlerimiz yatar. Üstlendiğimiz projelerde ve ürettiğimiz ürünlerde, bu değerlerin göz ardı edilmemesi gerektiğini bilir ve buna göre çalışırız. Değerlerimize bağlı çalıştığımızda, hizmet sağladığımız sektörlerde, daha fazla başarıya ulaşacağımızı biliriz."
     ],
     "process": [
-      "Kullanıcı dostu çözümler",
-      "Yenilikçi ve çevre dostu yapılar yapmak",
-      "Sürdürülebilir büyüme"
+      "madde 1",
+      "madde 2",
+      "madde 3",
+      "madde 4",
+      "madde 5",
+      "madde 6"
     ],
     "features": [
       ["Sektörlerinde lider", "Müşteri odaklı yaklaşım", "Kaliteli hizmet"],
@@ -80,19 +81,19 @@
       "strongTitle": "Taşlarımız",
       "stats": [
         {
-          "number": "200",
+          "number": "150",
           "title": "Çalışan",
           "description": "Deneyimli ve uzman kadromuzla müşterilerimize en iyi hizmeti sunuyoruz."
         },
         {
-          "number": "60",
+          "number": "10",
           "title": "Proje Yöneticisi",
           "description": "Profesyonel yönetim kadromuzla projelerimizi başarıyla tamamlıyoruz."
         },
         {
-          "number": "07",
-          "title": "Şube",
-          "description": "Türkiye'nin farklı noktalarında hizmet veren şubelerimizle yanınızdayız."
+          "number": "10",
+          "title": "Field Here",
+          "description": "Description Here"
         }
       ]
     }
@@ -109,34 +110,18 @@
         "quality": "Hizmet Kalitesi",
         "text": "Kuzey Global ile çalışmak gerçekten çok profesyonel bir deneyimdi. Sundukları hizmet kalitesi ve müşteri odaklı yaklaşımları takdire şayan.",
         "author": {
-          "image": "assets/img/team/1.png",
-          "name": "Ahmet Yılmaz",
+          "image": "assets/img/uploads/p-2.jpg",
+          "name": "Ahmet Y.",
           "position": "Genel Müdür"
         }
       }
     ]
   },
-  "blog": {
-    "heading": {
-      "subHeading": "Haberler",
-      "title": "Son",
-      "strongTitle": "Gelişmeler"
-    },
-    "posts": [
-      {
-        "image": "assets/img/blog/1.jpg",
-        "date": "1 Mart 2024",
-        "category": "Kurumsal",
-        "title": "Yeni Projelerimiz",
-        "description": "Sürdürülebilir büyüme hedefimiz doğrultusunda yeni projelerimizi hayata geçiriyoruz.",
-        "link": "post.html"
-      }
-    ]
-  },
+
   "skills": {
     "background": {
-      "image": "assets/img/project/project2/5-sm.jpg",
-      "largeImage": "assets/img/header.jpg"
+      "image": "assets/img/uploads/bg-img-1.jpg",
+      "largeImage": "assets/img/uploads/bg-img-1.jpg"
     },
     "items": [
       {
@@ -161,17 +146,10 @@
       }
     ]
   },
-  "brands": {
-    "items": [
-      { "image": "assets/img/logo/1.png" },
-      { "image": "assets/img/logo/2.png" },
-      { "image": "assets/img/logo/3.png" }
-    ]
-  },
   "contact": {
-    "image": "assets/img/hous-contact.jpg",
-    "title": "Projeleriniz için",
-    "strongTitle": "bizimle iletişime geçin",
+    "image": "assets/img/uploads/contact-img-1.jpg",
+    "title": "TÜM SORU VE İSTEKLERİNİZ",
+    "strongTitle": "BİZİMLE İLETİŞİME GEÇİN",
     "description": "Size en uygun çözümleri sunmak için buradayız. Hemen iletişime geçin!"
   }
 }

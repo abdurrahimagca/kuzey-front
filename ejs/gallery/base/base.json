@@ -1,0 +1,153 @@
+{
+  "menu": {
+    "logo": {
+      "light": "assets/img/logo.png",
+      "dark": "assets/img/logo-dark.png"
+    },
+    "demos": {
+      "title": "Demos",
+      "meta": "01",
+      "items": [
+        {
+          "title": "Demo 1",
+          "meta": "01",
+          "link": "index.html"
+        },
+        {
+          "title": "Demo 2",
+          "meta": "02",
+          "link": "demo-2.html"
+        },
+        {
+          "title": "Demo 3",
+          "meta": "03",
+          "link": "demo-3.html"
+        }
+      ]
+    },
+    "mainItems": [
+      {
+        "title": "About",
+        "meta": "02",
+        "link": "about.html"
+      },
+      {
+        "title": "Portfolio",
+        "meta": "03",
+        "hasDropdown": true,
+        "items": [
+          {
+            "title": "work",
+            "meta": "01",
+            "link": "work.html"
+          },
+          {
+            "title": "Work Masonry",
+            "meta": "02",
+            "link": "work-3-col.html"
+          },
+          {
+            "title": "Work Hover 2 Col",
+            "meta": "03",
+            "link": "work-2-col.html"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "meta": "04",
+        "link": "contact.html"
+      }
+    ],
+    "contact": {
+      "studio": {
+        "title": "Studio",
+        "address": ["26-30 New Damietta", "SK1 66LM"]
+      },
+      "info": {
+        "phone": "+00 (2)012 3321",
+        "email": "info@dsngrid.com"
+      }
+    },
+    "social": {
+      "title": "Follow us",
+      "links": [
+        {
+          "name": "Dribbble",
+          "shortcode": "Db",
+          "icon": "fab fa-dribbble"
+        },
+        {
+          "name": "Behance",
+          "shortcode": "Be",
+          "icon": "fab fa-behance"
+        },
+        {
+          "name": "Linkedin",
+          "shortcode": "Ln",
+          "icon": "fab fa-linkedin"
+        },
+        {
+          "name": "Twitter",
+          "shortcode": "Tw",
+          "icon": "fab fa-twitter"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "logo": {
+      "light": "assets/img/logo.png",
+      "dark": "assets/img/logo-dark.png",
+      "link": "#"
+    },
+    "address": {
+      "title": "ADDRESS",
+      "lines": ["26-30 New Damietta", "El-Mahalla El-Kubra, SK1 66LM"]
+    },
+    "navigation": {
+      "title": "NAVIGATION",
+      "links": [
+        { "text": "Portfolio", "url": "#" },
+        { "text": "About", "url": "#" },
+        { "text": "News", "url": "#" },
+        { "text": "Contact", "url": "#" }
+      ]
+    },
+    "social": {
+      "links": [
+        {
+          "name": "Dribbble",
+          "shortcode": "Db",
+          "icon": "fab fa-dribbble",
+          "url": "#"
+        },
+        {
+          "name": "Behance",
+          "shortcode": "Be",
+          "icon": "fab fa-behance",
+          "url": "#"
+        },
+        {
+          "name": "Linkedin",
+          "shortcode": "Ln",
+          "icon": "fab fa-linkedin",
+          "url": "#"
+        },
+        {
+          "name": "Twitter",
+          "shortcode": "Tw",
+          "icon": "fab fa-twitter",
+          "url": "#"
+        }
+      ]
+    },
+    "copyright": {
+      "text": "© 2021 Arctit Crafted by",
+      "link": {
+        "text": "Dsn Grid",
+        "url": "#"
+      }
+    }
+  }
+}

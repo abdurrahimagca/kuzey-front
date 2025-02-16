@@ -8,42 +8,42 @@
     "items": [
       {
         "id": 1,
-        "link": "project.html",
+        "link": "#",
         "image": "assets/img/project/project1/1.jpg",
         "categories": ["house", "Architecture"],
         "title": "Small modern house"
       },
       {
         "id": 2,
-        "link": "project-2.html",
+        "link": "#",
         "image": "assets/img/project/project2/1.jpg",
         "categories": ["Architecture", "Home"],
         "title": "Bloom Office interior"
       },
       {
         "id": 3,
-        "link": "project-3.html",
+        "link": "#",
         "image": "assets/img/project/project3/1.jpg",
         "categories": ["Architecture", "kitchen"],
         "title": "Central Park"
       },
       {
         "id": 4,
-        "link": "project-4.html",
+        "link": "#",
         "image": "assets/img/project/project4/1.jpg",
         "categories": ["living", "Architecture"],
         "title": "Small modern house"
       },
       {
         "id": 5,
-        "link": "project-5.html",
+        "link": "#",
         "image": "assets/img/project/project5/1.jpg",
         "categories": ["living", "Architecture"],
         "title": "Living room design"
       },
       {
         "id": 6,
-        "link": "project.html",
+        "link": "#",
         "image": "assets/img/project/project1/6.jpg",
         "categories": ["house", "Architecture"],
         "title": "Small modern house"
