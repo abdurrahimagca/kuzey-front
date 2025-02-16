@@ -25,6 +25,7 @@ ABOUT_DATA="./data/about-data.json"
 CONTACT_DATA="./data/contact-data.json"
 ARCHITECTURE_DATA="./data/architecture-data.json"
 TEXTILE_DATA="./data/textile-data.json"
+GALLERY_DATA="./data/gallery-data.json"
 
 # Parse command line arguments
 while [[ $# -gt 0 ]]; do
@@ -53,6 +54,10 @@ while [[ $# -gt 0 ]]; do
       TEXTILE_DATA="$2"
       shift 2
       ;;
+    --gallery-data)
+      GALLERY_DATA="$2"
+      shift 2
+      ;;
     *)
       echo "Unknown argument: $1"
       exit 1
@@ -66,14 +71,14 @@ jq -s '.[0] * .[1]' $BASE_DATA $ABOUT_DATA > ./dist/about-data.json
 jq -s '.[0] * .[1]' $BASE_DATA $CONTACT_DATA > ./dist/contact-data.json
 jq -s '.[0] * .[1]' $BASE_DATA $ARCHITECTURE_DATA > ./dist/architecture-data.json
 jq -s '.[0] * .[1]' $BASE_DATA $TEXTILE_DATA > ./dist/textile-data.json
-
+jq -s '.[0] * .[1]' $BASE_DATA $GALLERY_DATA > ./dist/gallery-data.json
 # Build pages using merged data
 npx ejs ./views/home/base/base.ejs -o ./dist/index.html -f ./dist/data.json
 npx ejs ./views/about/base/base.ejs -o ./dist/about.html -f ./dist/about-data.json
 npx ejs ./views/contact/base/base.ejs -o ./dist/contact.html -f ./dist/contact-data.json
 npx ejs ./views/architecture/base/base.ejs -o ./dist/architecture.html -f ./dist/architecture-data.json
 npx ejs ./views/textile/base/base.ejs -o ./dist/textile.html -f ./dist/textile-data.json
-
+npx ejs ./views/gallery/base/base.ejs -o ./dist/gallery.html -f ./dist/gallery-data.json
 # Copy assets directory
 cp -r ./assets/* ./dist/assets/
 
@@ -87,7 +92,7 @@ rm ./dist/about-data.json
 rm ./dist/contact-data.json
 rm ./dist/architecture-data.json
 rm ./dist/textile-data.json
-
+rm ./dist/gallery-data.json
 rm -rf  ../src/statik/dist
 cp -r ./dist ../src/statik/
 rm -rf ./dist

@@ -6,32 +6,24 @@
     "description": [
       "imza attığı tüm projelerle ve ürettiği tüm ürünlerle yeni ve modern Türkiye’nin gayrimenkul ve tekstil sektöründe adından söz ettirmeyi kendine görev olarak üstlenmiştir. Bulunduğu bölgelere değer katan nitelikli yaşam alanları inşa etmekte, tüketicilerin hayatına renk katan örme kumaş üretmekteyiz. Gerçekleştirdiğimiz her aktivitenin temelinde, tanımlanmış şirket değerlerimiz yatar. Üstlendiğimiz projelerde ve ürettiğimiz ürünlerde, bu değerlerin göz ardı edilmemesi gerektiğini bilir ve buna göre çalışırız. Değerlerimize bağlı çalıştığımızda, hizmet sağladığımız sektörlerde, daha fazla başarıya ulaşacağımızı biliriz."
     ],
-    "process": [
-      "madde 1",
-      "madde 2",
-      "madde 3",
-      "madde 4",
-      "madde 5",
-      "madde 6"
-    ],
     "features": [
       ["Sektörlerinde lider", "Müşteri odaklı yaklaşım", "Kaliteli hizmet"],
       ["Yenilikçi çözümler", "Sürdürülebilir büyüme", "Toplumsal değer"]
     ],
     "images": {
-      "main": "assets/img/uploads/txtl-vert.jpg",
-      "secondary": "assets/img/uploads/arch-vert.jpg"
+      "main": "assets/img/uploads/txtl-vert.webp",
+      "secondary": "assets/img/uploads/arch-vert.webp"
     }
   },
   "services": [
     {
-      "icon": "assets/img/uploads/arch.jpg",
+      "icon": "assets/img/uploads/arch.webp",
       "title": "İNŞAAT",
       "description": "Kuruluşumuzdan bu yana, inşaat sektöründeki öncü firmalardan biri olarak kaliteli işler üretmek için sürekli çaba gösteriyoruz. İşimize adanmışlık ve deneyimle müşterilerimizin beklentilerini karşılamak için projelerimize özen gösteriyoruz. Eğitimli ve deneyimli personelimiz, her projeyi baştan sona tamamlamak için gerekli araç ve donanıma sahiptir. Sektördeki en son teknolojileri kullanarak, işimizi mümkün olan en yüksek kalitede tamamlıyoruz.",
       "background": "assets/img/project/project1/1.jpg"
     },
     {
-      "icon": "assets/img/uploads/txtl.jpg",
+      "icon": "assets/img/uploads/txtl.webp",
       "title": "TEKSTİL",
       "description": "Tekstil imalat sanayi alanında uzun yıllara dayanan deneyimimizle, müşterilerimize en kaliteli hizmeti sunuyoruz. Geniş örme kumaş çeşitlerimizle doğruluk ve dürüstlükten taviz vermeden siz değerli müşterilerimizle bir araya gelmekten mutluluk duyuyoruz. Herhangi bir kumaşın pamuktan, boyalı örme kumaşa olan serüveninde tüm süreçleri planlama ekibimiz ile gerek renk takibi gerek üretim takibi yapılarak her miktara en hızlı termin ile cevap verilmektedir.",
       "background": "assets/img/project/project2/1.jpg"
@@ -86,12 +78,12 @@
           "description": "Deneyimli ve uzman kadromuzla müşterilerimize en iyi hizmeti sunuyoruz."
         },
         {
-          "number": "10",
+          "number": "010",
           "title": "Proje Yöneticisi",
           "description": "Profesyonel yönetim kadromuzla projelerimizi başarıyla tamamlıyoruz."
         },
         {
-          "number": "10",
+          "number": "010",
           "title": "Field Here",
           "description": "Description Here"
         }
@@ -110,7 +102,7 @@
         "quality": "Hizmet Kalitesi",
         "text": "Kuzey Global ile çalışmak gerçekten çok profesyonel bir deneyimdi. Sundukları hizmet kalitesi ve müşteri odaklı yaklaşımları takdire şayan.",
         "author": {
-          "image": "assets/img/uploads/p-2.jpg",
+         
           "name": "Ahmet Y.",
           "position": "Genel Müdür"
         }
@@ -120,8 +112,8 @@
 
   "skills": {
     "background": {
-      "image": "assets/img/uploads/bg-img-1.jpg",
-      "largeImage": "assets/img/uploads/bg-img-1.jpg"
+      "image": "",
+      "largeImage": "assets/img/uploads/bg-img-1.avif"
     },
     "items": [
       {
@@ -147,7 +139,7 @@
     ]
   },
   "contact": {
-    "image": "assets/img/uploads/contact-img-1.jpg",
+    "image": "assets/img/uploads/contact-img-1.avif",
     "title": "TÜM SORU VE İSTEKLERİNİZ",
     "strongTitle": "BİZİMLE İLETİŞİME GEÇİN",
     "description": "Size en uygun çözümleri sunmak için buradayız. Hemen iletişime geçin!"

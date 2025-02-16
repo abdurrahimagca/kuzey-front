@@ -2145,8 +2145,6 @@ ul.lest-box li:last-of-type {
   margin-right: 20px;
   text-transform: uppercase;
   color: var(--heading-color);
-  display: block;
-  margin-bottom: 10px;
 }
 @media only screen and (max-width: 575px) {
   .about-block .process-block span {
@@ -2154,7 +2152,7 @@ ul.lest-box li:last-of-type {
   }
 }
 .about-block .process-block span::before {
-  content: "✓";
+  content: "-";
   margin-right: 20px;
 }
 @media only screen and (max-width: 575px) {
@@ -2162,9 +2160,11 @@ ul.lest-box li:last-of-type {
     margin-right: 10px;
   }
 }
+.about-block .process-block span:first-of-type:before {
+  display: none;
+}
 .about-block .process-block span:last-of-type {
   margin-right: 0;
-  margin-bottom: 0;
 }
 .about-block .box-img {
   position: relative;

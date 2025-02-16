@@ -1,44 +1,51 @@
-<section class="testimonials-2 section-margin p-relative dsn-swiper" data-dsn-option='{"autoHeight" : "auto"}' data-dsn-controller=".testimonial-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="box-title p-relative sm-mb-title">
-                    <h5 class="sub-heading mb-15 pb-15"><%= testimonials.heading.subHeading %></h5>
-                    <h2 class="section-title mb-15 text-uppercase">
-                        <%= testimonials.heading.title %> 
-                        <strong><%= testimonials.heading.strongTitle %></strong>
-                    </h2>
-                    <p><%= testimonials.heading.description %></p>
-                </div>
-            </div>
-
-            <div class="col-lg-8">
-                <div class="testimonials-inner">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <% testimonials.items.forEach(function(item) { %>
-                                <div class="swiper-slide testimonial-item">
-                                    <p class="subtitle p-relative line-shap line-shap-after mb-15">
-                                        <span class="pl-10 pr-10 background-section dsn-load-animate">
-                                            <%= item.quality %>
-                                        </span>
-                                    </p>
-                                    <p><%= item.text %></p>
-                                    <div class="author-box d-flex align-items-center mt-20">
-                                        <div class="avatar mr-15">
-                                            <img class="cover-bg-img" src="<%= item.author.image %>" alt="">
-                                        </div>
-                                        <div class="author-text">
-                                            <h4 class="sm-title-block mb-10"><%= item.author.name %></h4>
-                                            <h5><%= item.author.position %></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            <% }); %>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section
+  class="testimonials-2 section-margin p-relative dsn-swiper"
+  data-dsn-option='{"autoHeight": "auto", "pagination": {"el": ".swiper-pagination", "clickable": true}}'
+  data-dsn-controller=".testimonial-content"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="box-title p-relative sm-mb-title">
+          <h5 class="sub-heading mb-15 pb-15">
+            <%= testimonials.heading.subHeading %>
+          </h5>
+          <h2 class="section-title mb-15 text-uppercase">
+            <%= testimonials.heading.title %>
+            <strong><%= testimonials.heading.strongTitle %></strong>
+          </h2>
+          <p><%= testimonials.heading.description %></p>
         </div>
+      </div>
+
+      <div class="col-lg-8">
+        <div class="testimonials-inner">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <% testimonials.items.forEach(function(item) { %>
+              <div class="swiper-slide testimonial-item">
+                <p class="subtitle p-relative line-shap line-shap-after mb-15">
+                  <span class="pl-10 pr-10 background-section dsn-load-animate">
+                    <%= item.quality %>
+                  </span>
+                </p>
+                <p><%= item.text %></p>
+                <div class="author-box d-flex align-items-center mt-20">
+                  <div class="author-text">
+                    <h4 class="sm-title-block mb-10">
+                      <%= item.author.name %>
+                    </h4>
+                    <h5><%= item.author.position %></h5>
+                  </div>
+                </div>
+              </div>
+
+              <% }); %>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
     </div>
-</section> 
+  </div>
+</section>

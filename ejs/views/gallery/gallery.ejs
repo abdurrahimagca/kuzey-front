@@ -1,0 +1,16 @@
+<%- include('./partials/_header', { header: gallery.header }) %>
+
+<section
+  class="work-inners work-gallery our-work section-margin p-relative zoom-gallery not-filter dsn-filter"
+>
+  <div class="container">
+    <div
+      class="w-100 dsn-item-filter dsn-isotope dsn-masonry d-grid grid-md-2"
+      data-dsn-item=".work-item"
+      data-dsn-isotope='{"space": 30 }'
+    >
+      <% gallery.items.forEach(function(item) { %> <%-
+      include('./partials/gallery-item', {item: item}); %> <% }); %>
+    </div>
+  </div>
+</section>
