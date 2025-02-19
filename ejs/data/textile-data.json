@@ -45,24 +45,30 @@
       "description": "Tekstil müşterilerimizin deneyimleri",
       "items": [
         {
-          "quality": "Profesyonellik",
-          "text": "Tekstil projelerimizde gösterdikleri profesyonel yaklaşım ve teknik bilgi ile üretim süreçlerimizi optimize etmemize büyük katkı sağladılar.",
+          "quality": "Üretim Kalitesi",
+          "text": "Yıllardır tüm ihtiyaçlarımızı titizlikle, kaliteli ve hızlı üreten yurtdışı için ürettiğimiz global markaların ürünlerinde kullandığımız kumaşlar için Kuzey Global firmasına teşekkür ederiz.",
           "author": {
-            "name": "Mehmet Yılmaz",
-            "position": "Üretim Müdürü, Tekstil A.Ş.",
-            "image": "assets/img/uploads/p-1.webp"
+            "name": "Süleyman H.",
+            "position": "Üretim Müdürü"
           }
         },
         {
-          "quality": "Kalite",
-          "text": "Ürün kalitesi ve teslimat süreleri konusunda gösterdikleri hassasiyet ile uzun vadeli iş ortağımız oldular.",
+          "quality": "Uzun Vadeli İşbirliği",
+          "text": "Sizlerle uzun senelerdir beri çalışmaktan menuniyet duyuyoruz. Her sorunumuza hızlı ve güvenilir şekilde cevaplayarak, çözümler sunmanıza, alternatifler üreterek bizlere maddi ve manevi kazançlar sağlayan ekibinize, yıllar geçtikçe kendinize ve bizlere sağladığınız tecrübelere çok minnettarız. Her geçen yıl bir basamak daha büyüyen bu firma ile birlikte çalışmak, bizim en büyük kazançlarımızdan biri.",
           "author": {
-            "name": "Zeynep Kaya",
-            "position": "Satın Alma Müdürü, Moda Tekstil",
-            "image": "assets/img/uploads/p-2.jpg"
+            "name": "Yasemin B.",
+            "position": "Kalite Kontrol Müdürü"
+          }
+        },
+        {
+          "quality": "Hizmet Kalitesi",
+          "text": "Kuzey Global ile çalışmak gerçekten çok profesyonel bir deneyimdi. Sundukları hizmet kalitesi ve müşteri odaklı yaklaşımları takdire şayan.",
+          "author": {
+            "name": "Ahmet Y.",
+            "position": "Genel Müdür"
           }
         }
       ]
     }
   }
-} 
+}

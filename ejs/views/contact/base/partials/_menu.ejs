@@ -41,7 +41,7 @@
       <ul
         class="extend-container p-relative d-flex flex-column justify-content-center h-100"
       >
-        <% menu.mainItems.slice(0,1).forEach(function(item) { %>
+        <% menu.mainItems.slice(0,2).forEach(function(item) { %>
         <li <% if(item.hasDropdown) { %>
           class="dsn-drop-down"<% } %>>
           <a
@@ -100,7 +100,7 @@
           </ul>
         </li>
 
-        <% menu.mainItems.slice(1).forEach(function(item) { %>
+        <% menu.mainItems.slice(2).forEach(function(item) { %>
         <li <% if(item.hasDropdown) { %>
           class="dsn-drop-down"<% } %>>
           <a

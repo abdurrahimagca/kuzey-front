@@ -1,8 +1,8 @@
 {
   "menu": {
     "logo": {
-      "light": "assets/img/logo.png",
-      "dark": "assets/img/logo-dark.png"
+      "light": "assets/img/uploads/logo-spin.png",
+      "dark": "assets/img/uploads/logo-spin.png"
     },
     "demos": {
       "title": "Sektörlerimiz",
@@ -54,8 +54,8 @@
   },
   "footer": {
     "logo": {
-      "light": "assets/img/logo.png",
-      "dark": "assets/img/logo.png",
+      "light": "assets/img/uploads/logo-spin.png",
+      "dark": "assets/img/uploads/logo-spin.png",
       "link": "#"
     },
     "address": {

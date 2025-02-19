@@ -1,26 +1,36 @@
-<div class="brand skills-circular p-relative" data-dsn-title="Skills" data-dsn-animate="section">
-    <div class="circular-wrap p-relative section-padding v-dark-head">
-        <div class="bg-section p-absolute w-100 h-100 over-hidden top-0">
-            <div class="before-z-index h-100" data-dsn-grid="move-up" data-overlay="7">
-                <img class="p-absolute cover-bg-img has-top-bottom"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-dsn-src="<%= skills.background.image %>"
-                    data-dsn-srcset="<%= skills.background.largeImage %> 1800w, <%= skills.background.image %> 768w"
-                    alt="" data-dsn-speed="30%">
-            </div>
-        </div>
-        <div class="container">
-            <div class="d-grid grid-lg-4 grid-sm-2">
-                <% skills.items.forEach(function(skill) { %>
-                    <div class="circular-item p-relative text-center">
-                        <div class="circle p-relative" data-value="<%= skill.value %>">
-                            <h4 class="v-middle">0</h4>
-                        </div>
-                        <h5 class="mt-30 title-block mb-15 text-uppercase"><%= skill.title %></h5>
-                        <p><%= skill.description %></p>
-                    </div>
-                <% }); %>
-            </div>
-        </div>
+<div
+  class="brand skills-circular p-relative"
+  data-dsn-title="Skills"
+  data-dsn-animate="section"
+>
+  <div class="circular-wrap p-relative section-padding v-dark-head">
+    <div class="bg-section p-absolute w-100 h-100 over-hidden top-0">
+      <div class="before-z-index h-100" data-dsn-grid="moveUp" data-overlay="7">
+        <img
+          class="p-absolute cover-bg-img has-top-bottom"
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-dsn-src="<%= skills.background.image %>"
+          data-dsn-srcset="<%= skills.background.largeImage %> 1800w, <%= skills.background.image %> 768w"
+          alt=""
+          data-dsn-speed="30%"
+          style="object-fit: cover; width: 100%; height: 100%"
+        />
+      </div>
     </div>
-</div> 
+    <div class="container">
+      <div class="d-grid grid-lg-4 grid-sm-2">
+        <% skills.items.forEach(function(skill) { %>
+        <div class="circular-item p-relative text-center">
+          <div class="circle p-relative" data-value="<%= skill.value %>">
+            <h4 class="v-middle">0</h4>
+          </div>
+          <h5 class="mt-30 title-block mb-15 text-uppercase">
+            <%= skill.title %>
+          </h5>
+          <p><%= skill.description %></p>
+        </div>
+        <% }); %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -13,25 +13,35 @@
       "subtitle": "Kuzey Global",
       "mainContent": {
         "title": "Hayatlara Değer Katan Çözümler",
-        "description": "Kuzey Global olarak hayatlara değer katmak ve sektöründe güvenilir, kaliteli olmak hedefiyle yolculuğuna başladı. Şirket olarak uzun yıllardır tekstil ve inşaat sektöründe faaliyet göstermekteyiz. Şirketimiz tekstil ve inşaat piyasasında markalaşmanın sembol firmalarından olmak için cesur ve yenilikçi adımlarla ilerlemektedir.",
+        "description": "Kuzey Global olarak hayatlara değer katmak ve sektöründe güvenilir, kaliteli olmak hedefiyle yolculuğuna başladı. Şirket olarak uzun yıllardır tekstil ve inşaat sektöründe faaliyet göstermekteyiz. Şirketimiz tekstil ve inşaat piyasasında markalaşmanın sembol firmalarından olmak için cesur ve yenilikçi adımlarla bugüne kadar faaliyet gösterdiği her alanda bu hedefine ulaşmak için emin adımlarla ilerlemektedir. Kazancını yatırıma dönüştürmeyi prensip edinen firmamız, örme kumaş konusunda dünya standardında trendlerin takipçisi kalarak altyapısı ve yüksek verimli sistemleriyle her zaman kaliteli ve kesintisiz hizmet sunmuş, bu şekilde müşterilerine verdiği önemi göstermiştir. İnşaat sektöründe marka kavramının da ötesine geçmek için günümüzde hem girişimci hem yüklenici hem de üretici olarak faaliyetlerine devam ediyor. İnşa ettiği binaları sahiplerine 'Koşulsuz Müşteri Memnuniyeti Garantisi' ile teslim eden şirketimiz bu konuda kalite ve güveni sağlamaktadır.",
         "stats": [
           {
             "number": "25+",
             "text": "Yıllık sektör deneyimi ile müşterilerimize kaliteli hizmet sunuyoruz."
           },
           {
-            "number": "200+",
+            "number": "150+",
             "text": "Deneyimli çalışanımız ile projelerinizi başarıyla tamamlıyoruz."
           }
         ]
       },
       "mission": {
         "title": "Misyonumuz",
-        "description": "• En yeni teknolojileri kullanarak, kullanıcı dostu çözümler üretmek ve herkesin yaşamını kolaylaştırmak\n• İnsanların hayatını daha iyi, daha konforlu ve daha sürdürülebilir hale getirmek için yenilikçi ve çevre dostu yapılar yapmak\n• Tekstil sektöründe sürdürülebilirlik ve yenilikçilik prensiplerini benimseyerek kaliteli ürünler sunmak\n• Müşteri odaklı yaklaşımıyla çözümler sunmak, topluma değer katmak ve sürdürülebilir bir büyüme sağlamak"
+        "description": [
+          "En yeni teknolojileri kullanarak, kullanıcı dostu çözümler üretmek ve herkesin yaşamını kolaylaştırmak",
+          "İnsanların hayatını daha iyi, daha konforlu ve daha sürdürülebilir hale getirmek için yenilikçi ve çevre dostu yapılar yapmak",
+          "Tekstil sektöründe sürdürülebilirlik ve yenilikçilik prensiplerini benimseyerek kaliteli ürünler sunmak",
+          "Müşteri odaklı yaklaşımıyla çözümler sunmak, topluma değer katmak ve sürdürülebilir bir büyüme sağlamak"
+        ]
       },
       "successful": {
         "title": "Vizyonumuz",
-        "description": "• Sektörlerinde Türkiye'nin bir numaralı şirketi olmak\n• Hizmet ve ürün kalitesiyle müşterilerinin birinci tercihi olarak sürekliliği sağlamak\n• Farklılıklar yaratarak kalıcı üstünlükler sağlamak\n• Ülkemizde değerlerine sahip çıkarak daha bilinçli bir toplum oluşmasına katkıda bulunmak"
+        "description": [
+          "Sektörlerinde Türkiye'nin bir numaralı şirketi olmak",
+          "Hizmet ve ürün kalitesiyle müşterilerinin birinci tercihi olarak sürekliliği sağlamak",
+          "Farklılıklar yaratarak kalıcı üstünlükler sağlamak",
+          "Ülkemizde değerlerine sahip çıkarak daha bilinçli bir toplum oluşmasına katkıda bulunmak"
+        ]
       }
     },
     "awards": {
@@ -39,17 +49,17 @@
       "subtitle": "Ödüller ve Başarılar",
       "items": [
         {
-          "year": "2023",
+          "year": "2008",
           "description": "Sürdürülebilir İş Modeli Ödülü",
           "link": "Tekstil sektöründe sürdürülebilir üretim uygulamaları"
         },
         {
-          "year": "2022",
+          "year": "2014",
           "description": "Kalite Yönetim Başarı Ödülü",
           "link": "İnşaat sektöründe kalite standartları uygulamaları"
         },
         {
-          "year": "2021",
+          "year": "2022",
           "description": "Müşteri Memnuniyeti Ödülü",
           "link": "Koşulsuz müşteri memnuniyeti garantisi uygulaması"
         }
@@ -64,9 +74,48 @@
           "quality": "Hizmet Kalitesi",
           "text": "Kuzey Global ile çalışmak gerçekten çok profesyonel bir deneyimdi. Sundukları hizmet kalitesi ve müşteri odaklı yaklaşımları takdire şayan.",
           "author": {
-            "name": "Ahmet Yılmaz",
-            "position": "Genel Müdür",
-            "image": "assets/img/team/1.png"
+            "name": "Ahmet Y.",
+            "position": "Genel Müdür"
+          }
+        },
+        {
+          "quality": "Uzun Vadeli İşbirliği",
+          "text": "Sizlerle uzun senelerdir beri çalışmaktan menuniyet duyuyoruz. Her sorunumuza hızlı ve güvenilir şekilde cevaplayarak, çözümler sunmanıza, alternatifler üreterek bizlere maddi ve manevi kazançlar sağlayan ekibinize, yıllar geçtikçe kendinize ve bizlere sağladığınız tecrübelere çok minnettarız. Her geçen yıl bir basamak daha büyüyen bu firma ile birlikte çalışmak, bizim en büyük kazançlarımızdan biri.",
+          "author": {
+            "name": "Yasemin B.",
+            "position": "Kalite Kontrol Müdürü"
+          }
+        },
+        {
+          "quality": "Proje Yönetimi",
+          "text": "Kuzey Global saha çalışmaları ve projenin gerçekleşmesi sırasında tarafımızdan gelen tüm istekleri cevaplamıştır. Görüşümüze göre tüm inşaat aşamasını hakkıyla yerine getirebilecek teknik kapasiteye sahip, bu işleri yaparken daha önceden anlaşmaya varılan takvim ve bütçeye sadık kalabilen bir firmadır.",
+          "author": {
+            "name": "Ahmet S.",
+            "position": "Arsa Sahibi"
+          }
+        },
+        {
+          "quality": "Üretim Kalitesi",
+          "text": "Yıllardır tüm ihtiyaçlarımızı titizlikle, kaliteli ve hızlı üreten yurtdışı için ürettiğimiz global markaların ürünlerinde kullandığımız kumaşlar için Kuzey Global firmasına teşekkür ederiz.",
+          "author": {
+            "name": "Süleyman H.",
+            "position": "Üretim Müdürü"
+          }
+        },
+        {
+          "quality": "Proje Teslimi",
+          "text": "Firma, taahhüt ettikleri tarihten önce projeyi başarıyla tamamladı. Kaliteli işçilikleri ve profesyonel yaklaşımlarıyla beni fazlasıyla memnun ettiler. Gelecekte başka bir projem olur ise aynı başarıyı tekrar Kuzey Global ile yaşamak isteriz.",
+          "author": {
+            "name": "Mehmet C.",
+            "position": "Arsa Sahibi"
+          }
+        },
+        {
+          "quality": "Müşteri Memnuniyeti",
+          "text": "Projemi baştan sona kadar titizlikle tamamladı. İşlerini zamanında bitirmeleri ve kaliteli malzeme kullanmaları beni etkiledi. Kesinlikle güvenilir bir seçenek. Bana uygun bir bütçe çerçevesinde evimi inanılmaz güzelleştirdiler. Teşekkür ederim",
+          "author": {
+            "name": "Zeynep K.",
+            "position": "Avukat"
           }
         }
       ]
@@ -105,13 +154,13 @@
       ]
     },
     "nextPage": {
-      "title": "Projeleriniz için bizimle iletişime geçin",
+      "title": "TÜM SORU VE İSTEKLERİNİZ İÇİN BİZİMLE İLETİŞİME GEÇİN",
       "description": "Size en uygun çözümleri sunmak için buradayız. Hemen iletişime geçin!",
       "button": {
         "text": "İletişime Geç",
         "link": "contact.html"
       },
-      "image": "assets/img/hous-contact.jpg"
+      "image": "assets/img/uploads/contact-img-1.avif"
     }
   }
 }

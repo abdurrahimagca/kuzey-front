@@ -1,10 +1,10 @@
 {
   "about": {
-    "subHeading": "Hakkımızda",
+    "subHeading": "",
     "title": "Kuzey Global",
     "strongTitle": "GÜVENİLİR VE KALİTELİ HİZMET",
     "description": [
-      "imza attığı tüm projelerle ve ürettiği tüm ürünlerle yeni ve modern Türkiye’nin gayrimenkul ve tekstil sektöründe adından söz ettirmeyi kendine görev olarak üstlenmiştir. Bulunduğu bölgelere değer katan nitelikli yaşam alanları inşa etmekte, tüketicilerin hayatına renk katan örme kumaş üretmekteyiz. Gerçekleştirdiğimiz her aktivitenin temelinde, tanımlanmış şirket değerlerimiz yatar. Üstlendiğimiz projelerde ve ürettiğimiz ürünlerde, bu değerlerin göz ardı edilmemesi gerektiğini bilir ve buna göre çalışırız. Değerlerimize bağlı çalıştığımızda, hizmet sağladığımız sektörlerde, daha fazla başarıya ulaşacağımızı biliriz."
+      "imza attığı tüm projelerle ve ürettiği tüm ürünlerle yeni ve modern Türkiye'nin gayrimenkul ve tekstil sektöründe adından söz ettirmeyi kendine görev olarak üstlenmiştir. Bulunduğu bölgelere değer katan nitelikli yaşam alanları inşa etmekte, tüketicilerin hayatına renk katan örme kumaş üretmekteyiz. Gerçekleştirdiğimiz her aktivitenin temelinde, tanımlanmış şirket değerlerimiz yatar. Üstlendiğimiz projelerde ve ürettiğimiz ürünlerde, bu değerlerin göz ardı edilmemesi gerektiğini bilir ve buna göre çalışırız. Değerlerimize bağlı çalıştığımızda, hizmet sağladığımız sektörlerde, daha fazla başarıya ulaşacağımızı biliriz."
     ],
     "features": [
       ["Sektörlerinde lider", "Müşteri odaklı yaklaşım", "Kaliteli hizmet"],
@@ -83,9 +83,9 @@
           "description": "Profesyonel yönetim kadromuzla projelerimizi başarıyla tamamlıyoruz."
         },
         {
-          "number": "010",
-          "title": "Field Here",
-          "description": "Description Here"
+          "number": "600",
+          "title": "Üretim Kapasitesi",
+          "description": "Her ay yüksek tonajlı, yüksek kaliteli ürünler üretiyoruz."
         }
       ]
     }
@@ -99,12 +99,51 @@
     },
     "items": [
       {
-        "quality": "Hizmet Kalitesi",
+   
         "text": "Kuzey Global ile çalışmak gerçekten çok profesyonel bir deneyimdi. Sundukları hizmet kalitesi ve müşteri odaklı yaklaşımları takdire şayan.",
         "author": {
-         
           "name": "Ahmet Y.",
           "position": "Genel Müdür"
+        }
+      },
+      {
+       
+        "text": "Sizlerle uzun senelerdir beri çalışmaktan menuniyet duyuyoruz. Her sorunumuza hızlı ve güvenilir şekilde cevaplayarak, çözümler sunmanıza, alternatifler üreterek bizlere maddi ve manevi kazançlar sağlayan ekibinize, yıllar geçtikçe kendinize ve bizlere sağladığınız tecrübelere çok minnettarız. Her geçen yıl bir basamak daha büyüyen bu firma ile birlikte çalışmak, bizim en büyük kazançlarımızdan biri.",
+        "author": {
+          "name": "Yasemin B.",
+          "position": "Kalite Kontrol Müdürü"
+        }
+      },
+      {
+       
+        "text": "Kuzey Global saha çalışmaları ve projenin gerçekleşmesi sırasında tarafımızdan gelen tüm istekleri cevaplamıştır. Görüşümüze göre tüm inşaat aşamasını hakkıyla yerine getirebilecek teknik kapasiteye sahip, bu işleri yaparken daha önceden anlaşmaya varılan takvim ve bütçeye sadık kalabilen bir firmadır.",
+        "author": {
+          "name": "Ahmet S.",
+          "position": "Arsa Sahibi"
+        }
+      },
+      {
+   
+        "text": "Yıllardır tüm ihtiyaçlarımızı titizlikle, kaliteli ve hızlı üreten yurtdışı için ürettiğimiz global markaların ürünlerinde kullandığımız kumaşlar için Kuzey Global firmasına teşekkür ederiz.",
+        "author": {
+          "name": "Süleyman H.",
+          "position": "Üretim Müdürü"
+        }
+      },
+      {
+   
+        "text": "Firma, taahhüt ettikleri tarihten önce projeyi başarıyla tamamladı. Kaliteli işçilikleri ve profesyonel yaklaşımlarıyla beni fazlasıyla memnun ettiler. Gelecekte başka bir projem olur ise aynı başarıyı tekrar Kuzey Global ile yaşamak isteriz.",
+        "author": {
+          "name": "Mehmet C.",
+          "position": "Arsa Sahibi"
+        }
+      },
+      {
+      
+        "text": "Projemi baştan sona kadar titizlikle tamamladı. İşlerini zamanında bitirmeleri ve kaliteli malzeme kullanmaları beni etkiledi. Kesinlikle güvenilir bir seçenek. Bana uygun bir bütçe çerçevesinde evimi inanılmaz güzelleştirdiler. Teşekkür ederim",
+        "author": {
+          "name": "Zeynep K.",
+          "position": "Avukat"
         }
       }
     ]
