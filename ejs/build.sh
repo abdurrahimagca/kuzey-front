@@ -15,8 +15,29 @@ fi
 rm -rf ./dist   
 mkdir -p ./dist
 
-# Create assets directory in output if it doesn't exist 
-mkdir -p ./dist/assets
+# First copy all assets
+cp -r ./assets ./dist/
+
+# Remove files that will be optimized
+rm ./dist/assets/css/style.css
+rm ./dist/assets/js/custom.js
+
+# Optimize CSS with esbuild
+npx esbuild ./assets/css/style.css \
+  --minify \
+  --outfile=./dist/assets/css/style.css
+
+# Optimize JavaScript
+npx terser ./assets/js/custom.js \
+  --compress \
+  --mangle \
+  --keep-classnames \
+  --keep-fnames \
+  --output ./dist/assets/js/custom.js
+
+# Replace API key in custom.js
+sed -i.bak "s/{{GOOGLE_MAPS_API_KEY}}/$GOOGLE_MAPS_API_KEY/g" ./dist/assets/js/custom.js
+rm ./dist/assets/js/custom.js.bak
 
 # Default data file paths
 BASE_DATA="./data/base.json"
@@ -72,6 +93,7 @@ jq -s '.[0] * .[1]' $BASE_DATA $CONTACT_DATA > ./dist/contact-data.json
 jq -s '.[0] * .[1]' $BASE_DATA $ARCHITECTURE_DATA > ./dist/architecture-data.json
 jq -s '.[0] * .[1]' $BASE_DATA $TEXTILE_DATA > ./dist/textile-data.json
 jq -s '.[0] * .[1]' $BASE_DATA $GALLERY_DATA > ./dist/gallery-data.json
+
 # Build pages using merged data
 npx ejs ./views/home/base/base.ejs -o ./dist/index.html -f ./dist/data.json
 npx ejs ./views/about/base/base.ejs -o ./dist/about.html -f ./dist/about-data.json
@@ -79,23 +101,10 @@ npx ejs ./views/contact/base/base.ejs -o ./dist/contact.html -f ./dist/contact-d
 npx ejs ./views/architecture/base/base.ejs -o ./dist/architecture.html -f ./dist/architecture-data.json
 npx ejs ./views/textile/base/base.ejs -o ./dist/textile.html -f ./dist/textile-data.json
 npx ejs ./views/gallery/base/base.ejs -o ./dist/gallery.html -f ./dist/gallery-data.json
-# Copy assets directory
-cp -r ./assets/* ./dist/assets/
 
-# Replace API key in custom.js
-sed -i.bak "s/{{GOOGLE_MAPS_API_KEY}}/$GOOGLE_MAPS_API_KEY/g" ./dist/assets/js/custom.js
-rm ./dist/assets/js/custom.js.bak
-
-# Clean up temporary data files
-rm ./dist/data.json
-rm ./dist/about-data.json
-rm ./dist/contact-data.json
-rm ./dist/architecture-data.json
-rm ./dist/textile-data.json
-rm ./dist/gallery-data.json
+# Copy to final destination
 rm -rf  ../src/statik/dist
 cp -r ./dist ../src/statik/
 rm -rf ./dist
-
 
 echo "Build completed! Output is in src/statik/dist directory"
