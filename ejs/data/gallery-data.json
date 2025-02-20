@@ -1,52 +1,51 @@
 {
-    
   "gallery": {
     "header": {
-      "subtitle": "Selected Works",
-      "title": "AWESOME BEST PORTFOLIO"
+      "subtitle": "Kuzey Global",
+      "title": "Güvenilir ve Kaliteli Hizmet"
     },
     "items": [
       {
         "id": 1,
-        "link": "#",
-        "image": "assets/img/project/project1/1.jpg",
-        "categories": ["house", "Architecture"],
-        "title": "Small modern house"
+        "image": "assets/img/uploads/gallery-4.jpg",
+        "categories": ["İnşaat", "Konut"],
+        "title": "Kuzey Residence",
+        "description": "Modern mimari ve konforlu yaşam alanları sunan prestijli konut projesi"
       },
       {
         "id": 2,
-        "link": "#",
-        "image": "assets/img/project/project2/1.jpg",
-        "categories": ["Architecture", "Home"],
-        "title": "Bloom Office interior"
+        "image": "assets/img/uploads/gallery-2.jpg",
+        "categories": ["Tekstil", "Üretim"],
+        "title": "Örme Kumaş Üretimi",
+        "description": "Yüksek kaliteli örme kumaş üretimi ve yenilikçi tekstil çözümleri"
       },
       {
         "id": 3,
-        "link": "#",
-        "image": "assets/img/project/project3/1.jpg",
-        "categories": ["Architecture", "kitchen"],
-        "title": "Central Park"
+        "image": "assets/img/uploads/gallery-1.jpg",
+        "categories": ["Tekstil", "İhracat"],
+        "title": "Kuzey Tekstil İhracat",
+        "description": "Global pazarlarda tercih edilen, yüksek kaliteli tekstil ürünleri ihracatı"
       },
       {
         "id": 4,
-        "link": "#",
-        "image": "assets/img/project/project4/1.jpg",
-        "categories": ["living", "Architecture"],
-        "title": "Small modern house"
+        "image": "assets/img/uploads/gallery-5.jpg",
+        "categories": ["Tekstil", "Fabrika"],
+        "title": "Modern Üretim Tesisi",
+        "description": "Son teknoloji makine parkuru ile donatılmış entegre üretim tesisi"
       },
       {
         "id": 5,
-        "link": "#",
-        "image": "assets/img/project/project5/1.jpg",
-        "categories": ["living", "Architecture"],
-        "title": "Living room design"
+        "image": "assets/img/uploads/gallery-6.jpg",
+        "categories": ["İnşaat", "Konut"],
+        "title": "Kuzey Park Evleri",
+        "description": "Doğayla iç içe, sosyal olanaklarıyla öne çıkan yaşam kompleksi"
       },
       {
         "id": 6,
-        "link": "#",
-        "image": "assets/img/project/project1/6.jpg",
-        "categories": ["house", "Architecture"],
-        "title": "Small modern house"
+        "image": "assets/img/uploads/gallery-3.jpg",
+        "categories": ["Tekstil", "Ar-Ge"],
+        "title": "Kumaş Geliştirme Merkezi",
+        "description": "Yenilikçi kumaş tasarımları ve AR-GE çalışmalarının merkezi"
       }
     ]
   }
