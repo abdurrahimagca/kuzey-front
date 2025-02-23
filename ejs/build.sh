@@ -34,21 +34,22 @@ npx terser ./assets/js/custom.js \
 echo "Converting uploads images to WebP..."
 find ./dist/assets/img/uploads -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | while read img; do
   webp_path="${img%.*}.webp"
+  
+  # Get image dimensions
+  dimensions=$(identify -format "%wx%h" "$img")
+  width=$(echo $dimensions | cut -d'x' -f1)
+  
+
+  target_size=150000
+  initial_quality=60
   if [ ! -f "$webp_path" ]; then
-    echo "Converting: $img"
-    if cwebp -q 75 "$img" -o "$webp_path" && [ -s "$webp_path" ]; then
+    echo "Converting: $img (Target size: $(($target_size/1000))KB)"
+    
+    # First attempt with initial quality
+    if cwebp -q $initial_quality -size $target_size "$img" -o "$webp_path" && [ -s "$webp_path" ]; then
       echo "Successfully converted: $img"
-      # Remove original file after successful conversion
       rm "$img"
-      echo "Removed original file: $img"
-    else
-      echo "Failed to convert: $img"
-      rm -f "$webp_path"
     fi
-  else
-    # If WebP already exists, remove the original
-    rm "$img"
-    echo "Removed original file (WebP exists): $img"
   fi
 done
 
