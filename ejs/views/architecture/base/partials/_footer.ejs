@@ -19,47 +19,61 @@
           </div>
         </div>
 
-        <div class="col-md-3 footer-block-item">
-          <div class="footer-block">
-            <p class="subtitle p-relative line-shap line-shap-after mb-20">
-              <span
-                class="pl-10 pr-10 background-section heading-color text-uppercase"
-                ><%= footer.address.title %></span
-              >
-            </p>
-            <p>
-              <% footer.address.lines.forEach(function(line) { %> <%= line %><br />
-              <% }); %>
-            </p>
+        <div class="col-md-7">
+          <div class="row">
+            <% footer.address.forEach(function(office) { %>
+            <div class="col-md-6">
+              <div class="footer-block">
+                <p class="subtitle p-relative line-shap line-shap-after mb-15">
+                  <span
+                    class="pl-10 pr-10 background-section heading-color text-uppercase"
+                    ><%= office.title %></span
+                  >
+                </p>
+                <div class="address-info">
+                  <p>
+                    <% office.lines.forEach(function(line) { %> <%= line %><br />
+                    <% }); %>
+                  </p>
+                  <p class="mt-5">
+                    <strong>Telefon:</strong><br />
+                    <% office.phone.forEach(function(phone) { %> <%= phone %><br />
+                    <% }); %>
+                  </p>
+                  <p class="mt-5">
+                    <strong>E-posta:</strong><br />
+                    <%= office.email %>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <% }); %>
           </div>
         </div>
 
         <div class="col-md-3 footer-block-item">
-          <div class="footer-block col-menu">
+          <% footer.navigation.forEach(function(nav) { %>
+          <div class="footer-block col-menu mb-30">
             <p class="subtitle p-relative line-shap line-shap-after mb-20">
               <span
                 class="pl-10 pr-10 background-section heading-color text-uppercase"
-                ><%= footer.navigation.title %></span
+                ><%= nav.title %></span
               >
             </p>
 
             <ul>
-              <% footer.navigation.links.forEach(function(link) { %>
+              <% nav.links.forEach(function(link) { %>
               <li><a href="<%= link.url %>"><%= link.text %></a></li>
               <% }); %>
             </ul>
           </div>
+          <% }); %>
         </div>
       </div>
 
       <div class="footer-credits border-top pt-30 mt-30">
         <div class="block">
-          <p class="copyright">
-            <%= footer.copyright.text %>
-            <a href="<%= footer.copyright.link.url %>" target="_blank">
-              <%= footer.copyright.link.text %>
-            </a>
-          </p>
+          <p class="copyright"><%= footer.copyright.link.text %></p>
         </div>
       </div>
     </div>

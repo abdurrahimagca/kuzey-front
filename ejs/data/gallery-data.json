@@ -4,48 +4,112 @@
       "subtitle": "Kuzey Global",
       "title": "Güvenilir ve Kaliteli Hizmet"
     },
-    "items": [
+    "sections": [
       {
-        "id": 1,
-        "image": "assets/img/uploads/gallery-4.jpg",
-        "categories": ["İnşaat", "Konut"],
-        "title": "Kuzey Residence",
-        "description": "Modern mimari ve konforlu yaşam alanları sunan prestijli konut projesi"
+        "title": "TEKSTİL GALERİ",
+        "items": [
+          {
+            "id": 1,
+            "image": "assets/img/uploads/projects/1.webp",
+            "categories": ["Tekstil", "Üretim"],
+            "title": "TEKSTİL | Üretim",
+            "subtitle": "ÖRME KUMAŞ TEKNOLOJİLERİ",
+            "description": "Ürünlerimizde en son ve teknolojik dünya çapında adını kanıtlamış makineleri kullanıyoruz."
+          },
+          {
+            "id": 2,
+            "image": "assets/img/uploads/projects/2.webp",
+            "categories": ["Tekstil", "Ar-Ge"],
+            "title": "TEKSTİL | Arge",
+            "subtitle": "KUMAŞ GELİŞTİRME MERKEZİ",
+            "description": "Yenilikçi kumaş tasarımları ve AR-GE çalışmalarını titizlikle ve teknolojiyle beraber yürütmekteyiz."
+          },
+          {
+            "id": 3,
+            "image": "assets/img/uploads/projects/3.webp",
+            "categories": ["Tekstil", "Üretim"],
+            "title": "TEKSTİL | Üretim",
+            "subtitle": "ÖRME KUMAŞ TESİSİ",
+            "description": "Yatırımlarımızı günden güne büyüterek daha hızlı ve kaliteli hizmet vermek için çalışıyoruz."
+          },
+          {
+            "id": 4,
+            "image": "assets/img/uploads/projects/4.webp",
+            "categories": ["Tekstil", "Hammadde"],
+            "title": "TEKSTİL | Hammadde",
+            "subtitle": "İPLİK TEDARİĞİ",
+            "description": "Ürünlerimizde ülkemizde ve dünyada kendini kanıtlamış en kaliteli iplik markalarını tercih ediyoruz."
+          },
+          {
+            "id": 5,
+            "image": "assets/img/uploads/projects/5.webp",
+            "categories": ["Tekstil", "Depo"],
+            "title": "TEKSTİL | Depo",
+            "subtitle": "KUMAŞ STOĞU",
+            "description": "Müşterilerimiz için her zaman stoğumuzu güncel tutarak hızlı hizmet vermeye önem gösteriyoruz."
+          },
+          {
+            "id": 6,
+            "image": "assets/img/uploads/projects/6.webp",
+            "categories": ["Tekstil", "Boya"],
+            "title": "TEKSTİL | Boya",
+            "subtitle": "HAM KUMAŞ RENKLENDİRME",
+            "description": "Müşterilerimizin talepleri doğrultusunda en iyi boyahane iş ortaklarımızda kaliteli ürünler üretmekteyiz."
+          }
+        ]
       },
       {
-        "id": 2,
-        "image": "assets/img/uploads/gallery-2.jpg",
-        "categories": ["Tekstil", "Üretim"],
-        "title": "Örme Kumaş Üretimi",
-        "description": "Yüksek kaliteli örme kumaş üretimi ve yenilikçi tekstil çözümleri"
-      },
-      {
-        "id": 3,
-        "image": "assets/img/uploads/gallery-1.jpg",
-        "categories": ["Tekstil", "İhracat"],
-        "title": "Kuzey Tekstil İhracat",
-        "description": "Global pazarlarda tercih edilen, yüksek kaliteli tekstil ürünleri ihracatı"
-      },
-      {
-        "id": 4,
-        "image": "assets/img/uploads/gallery-5.jpg",
-        "categories": ["Tekstil", "Fabrika"],
-        "title": "Modern Üretim Tesisi",
-        "description": "Son teknoloji makine parkuru ile donatılmış entegre üretim tesisi"
-      },
-      {
-        "id": 5,
-        "image": "assets/img/uploads/gallery-6.jpg",
-        "categories": ["İnşaat", "Konut"],
-        "title": "Kuzey Park Evleri",
-        "description": "Doğayla iç içe, sosyal olanaklarıyla öne çıkan yaşam kompleksi"
-      },
-      {
-        "id": 6,
-        "image": "assets/img/uploads/gallery-3.jpg",
-        "categories": ["Tekstil", "Ar-Ge"],
-        "title": "Kumaş Geliştirme Merkezi",
-        "description": "Yenilikçi kumaş tasarımları ve AR-GE çalışmalarının merkezi"
+        "title": "İNŞAAT GALERİ",
+        "items": [
+          {
+            "id": 7,
+            "image": "assets/img/uploads/projects/7.webp",
+            "categories": ["İnşaat", "Konut"],
+            "title": "İNŞAAT | Konut",
+            "subtitle": "Beylikdüzü Projemiz",
+            "description": "Modern mimari ve konforlu yaşam alanları sunan prestijli konut projesi"
+          },
+          {
+            "id": 8,
+            "image": "assets/img/uploads/projects/8.webp",
+            "categories": ["İnşaat", "İş Yeri"],
+            "title": "İNŞAAT | İş Yeri",
+            "subtitle": "Beylikdüzü Projemiz",
+            "description": "Çağdaş iş merkezi ve ofis kompleksi"
+          },
+          {
+            "id": 9,
+            "image": "assets/img/uploads/projects/9.webp",
+            "categories": ["İnşaat", "Konut"],
+            "title": "İNŞAAT | Konut",
+            "subtitle": "Yeşilköy Projemiz",
+            "description": "Yeşilköy'de modern yaşam konsepti"
+          },
+          {
+            "id": 10,
+            "image": "assets/img/uploads/projects/10.webp",
+            "categories": ["İnşaat", "Konut"],
+            "title": "İNŞAAT | Konut",
+            "subtitle": "Ağrı Projemiz",
+            "description": "Ağrı'da yükselen yeni yaşam merkezi"
+          },
+          {
+            "id": 11,
+            "image": "assets/img/uploads/projects/11.webp",
+            "categories": ["İnşaat", "Villa"],
+            "title": "İNŞAAT | Villa",
+            "subtitle": "Dalyan Projemiz",
+            "description": "Dalyan'da lüks villa projesi"
+          },
+          {
+            "id": 12,
+            "image": "assets/img/uploads/projects/12.webp",
+            "categories": ["İnşaat", "Villa"],
+            "title": "İNŞAAT | Villa",
+            "subtitle": "Fethiye Projemiz",
+            "description": "Fethiye'de doğayla iç içe villa yaşamı"
+          }
+        ]
       }
     ]
   }

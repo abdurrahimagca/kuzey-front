@@ -1,33 +1,27 @@
 #!/bin/bash
 
-# Load environment variables from .env file if it exists
-if [ -f .env ]; then
-    export $(cat .env | grep -v '#' | xargs)
-fi
-
-# Verify required environment variables
-if [ -z "$GOOGLE_MAPS_API_KEY" ]; then
-    echo "Error: GOOGLE_MAPS_API_KEY environment variable is not set"
-    exit 1
-fi
-
+echo "Building..."
 # Create output directory if it doesn't exist
 rm -rf ./dist   
 mkdir -p ./dist
 
 # First copy all assets
+echo "Copying assets..."
 cp -r ./assets ./dist/
 
 # Remove files that will be optimized
+echo "Removing files that will be optimized..."
 rm ./dist/assets/css/style.css
 rm ./dist/assets/js/custom.js
 
 # Optimize CSS with esbuild
+echo "Optimizing CSS..."
 npx esbuild ./assets/css/style.css \
   --minify \
   --outfile=./dist/assets/css/style.css
 
 # Optimize JavaScript
+echo "Optimizing JavaScript..."
 npx terser ./assets/js/custom.js \
   --compress \
   --mangle \
@@ -35,9 +29,30 @@ npx terser ./assets/js/custom.js \
   --keep-fnames \
   --output ./dist/assets/js/custom.js
 
-# Replace API key in custom.js
-sed -i.bak "s/{{GOOGLE_MAPS_API_KEY}}/$GOOGLE_MAPS_API_KEY/g" ./dist/assets/js/custom.js
-rm ./dist/assets/js/custom.js.bak
+
+# Convert only uploads directory images to WebP
+echo "Converting uploads images to WebP..."
+find ./dist/assets/img/uploads -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | while read img; do
+  webp_path="${img%.*}.webp"
+  if [ ! -f "$webp_path" ]; then
+    echo "Converting: $img"
+    if cwebp -q 75 "$img" -o "$webp_path" && [ -s "$webp_path" ]; then
+      echo "Successfully converted: $img"
+      # Remove original file after successful conversion
+      rm "$img"
+      echo "Removed original file: $img"
+    else
+      echo "Failed to convert: $img"
+      rm -f "$webp_path"
+    fi
+  else
+    # If WebP already exists, remove the original
+    rm "$img"
+    echo "Removed original file (WebP exists): $img"
+  fi
+done
+
+echo "Converting images to WebP completed!"
 
 # Default data file paths
 BASE_DATA="./data/base.json"
@@ -86,6 +101,7 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+echo "Merging base.json with page specific data..."
 # Merge base.json with page specific data
 jq -s '.[0] * .[1]' $BASE_DATA $HOME_DATA > ./dist/data.json
 jq -s '.[0] * .[1]' $BASE_DATA $ABOUT_DATA > ./dist/about-data.json
@@ -94,7 +110,8 @@ jq -s '.[0] * .[1]' $BASE_DATA $ARCHITECTURE_DATA > ./dist/architecture-data.jso
 jq -s '.[0] * .[1]' $BASE_DATA $TEXTILE_DATA > ./dist/textile-data.json
 jq -s '.[0] * .[1]' $BASE_DATA $GALLERY_DATA > ./dist/gallery-data.json
 
-# Build pages using merged data
+# First build HTML files
+echo "Building HTML files..."
 npx ejs ./views/home/base/base.ejs -o ./dist/index.html -f ./dist/data.json
 npx ejs ./views/about/base/base.ejs -o ./dist/about.html -f ./dist/about-data.json
 npx ejs ./views/contact/base/base.ejs -o ./dist/contact.html -f ./dist/contact-data.json
@@ -102,9 +119,18 @@ npx ejs ./views/architecture/base/base.ejs -o ./dist/architecture.html -f ./dist
 npx ejs ./views/textile/base/base.ejs -o ./dist/textile.html -f ./dist/textile-data.json
 npx ejs ./views/gallery/base/base.ejs -o ./dist/gallery.html -f ./dist/gallery-data.json
 
-# Copy to final destination
+echo "Removing data files..."
+rm ./dist/data.json
+rm ./dist/about-data.json
+rm ./dist/contact-data.json
+rm ./dist/architecture-data.json
+rm ./dist/textile-data.json
+rm ./dist/gallery-data.json
+
+echo "Copying to final destination..."
 rm -rf  ../src/statik/dist
 cp -r ./dist ../src/statik/
 rm -rf ./dist
 
 echo "Build completed! Output is in src/statik/dist directory"
+

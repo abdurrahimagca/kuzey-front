@@ -149,11 +149,11 @@
       "description": "Sektörün önde gelen firmaları ile güçlü iş birlikleri kurarak müşterilerimize en iyi hizmeti sunuyoruz.",
       "logos": [
         "assets/img/uploads/isdemir-logo-inv.svg",
-        "assets/img/uploads/karsu-logo.png",
+        "assets/img/uploads/karsu-logo.webp",
         "assets/img/uploads/kilicoglu.svg",
-        "assets/img/uploads/mayercie.png",
-        "assets/img/uploads/page-betonsa-logo.jpeg",
-        "assets/img/uploads/vignoni.png"
+        "assets/img/uploads/mayercie.webp",
+        "assets/img/uploads/page-betonsa-logo.webp",
+        "assets/img/uploads/vignoni.webp"
       ]
     },
     "nextPage": {
@@ -163,7 +163,7 @@
         "text": "İletişime Geç",
         "link": "contact.html"
       },
-      "image": "assets/img/uploads/contact-img-1.avif"
+      "image": "assets/img/uploads/contact-img-1.webp"
     }
   }
 }

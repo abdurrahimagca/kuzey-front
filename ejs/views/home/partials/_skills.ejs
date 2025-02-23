@@ -3,21 +3,23 @@
   data-dsn-title="Skills"
   data-dsn-animate="section"
 >
-  <div class="circular-wrap p-relative section-padding v-dark-head">
+  <div class="circular-wrap p-relative section-padding">
     <div class="bg-section p-absolute w-100 h-100 over-hidden top-0">
-      <div class="before-z-index h-100" data-dsn-grid="moveUp" data-overlay="7">
+      <div class="h-100">
         <img
-          class="p-absolute cover-bg-img has-top-bottom"
-          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-dsn-src="<%= skills.background.image %>"
-          data-dsn-srcset="<%= skills.background.largeImage %> 1800w, <%= skills.background.image %> 768w"
+          class="p-absolute cover-bg-img"
+          src="<%= skills.background.image %>"
           alt=""
-          data-dsn-speed="30%"
-          style="object-fit: cover; width: 100%; height: 100%"
+          style="
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            filter: brightness(0.7);
+          "
         />
       </div>
     </div>
-    <div class="container">
+    <div class="container" style="position: relative; z-index: 2">
       <div class="d-grid grid-lg-4 grid-sm-2">
         <% skills.items.forEach(function(skill) { %>
         <div class="circular-item p-relative text-center">

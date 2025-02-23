@@ -20,13 +20,13 @@
       "icon": "assets/img/uploads/arch.webp",
       "title": "İNŞAAT",
       "description": "Kuruluşumuzdan bu yana, inşaat sektöründeki öncü firmalardan biri olarak kaliteli işler üretmek için sürekli çaba gösteriyoruz. İşimize adanmışlık ve deneyimle müşterilerimizin beklentilerini karşılamak için projelerimize özen gösteriyoruz. Eğitimli ve deneyimli personelimiz, her projeyi baştan sona tamamlamak için gerekli araç ve donanıma sahiptir. Sektördeki en son teknolojileri kullanarak, işimizi mümkün olan en yüksek kalitede tamamlıyoruz.",
-      "background": "assets/img/project/project1/1.jpg"
+      "background": "assets/img/project/project1/1.webp"
     },
     {
       "icon": "assets/img/uploads/txtl.webp",
       "title": "TEKSTİL",
       "description": "Tekstil imalat sanayi alanında uzun yıllara dayanan deneyimimizle, müşterilerimize en kaliteli hizmeti sunuyoruz. Geniş örme kumaş çeşitlerimizle doğruluk ve dürüstlükten taviz vermeden siz değerli müşterilerimizle bir araya gelmekten mutluluk duyuyoruz. Herhangi bir kumaşın pamuktan, boyalı örme kumaşa olan serüveninde tüm süreçleri planlama ekibimiz ile gerek renk takibi gerek üretim takibi yapılarak her miktara en hızlı termin ile cevap verilmektedir.",
-      "background": "assets/img/project/project2/1.jpg"
+      "background": "assets/img/project/project2/1.webp"
     }
   ],
   "projects": {
@@ -151,8 +151,8 @@
 
   "skills": {
     "background": {
-      "image": "",
-      "largeImage": "assets/img/uploads/bg-img-1.avif"
+      "image": "assets/img/uploads/bg-img-1.webp",
+      "largeImage": "assets/img/uploads/bg-img-1.webp"
     },
     "items": [
       {
@@ -178,7 +178,7 @@
     ]
   },
   "contact": {
-    "image": "assets/img/uploads/contact-img-1.avif",
+    "image": "assets/img/uploads/contact-img-1.webp",
     "title": "TÜM SORU VE İSTEKLERİNİZ",
     "strongTitle": "BİZİMLE İLETİŞİME GEÇİN",
     "description": "Size en uygun çözümleri sunmak için buradayız. Hemen iletişime geçin!"

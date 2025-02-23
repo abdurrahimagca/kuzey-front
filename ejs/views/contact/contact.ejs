@@ -2,7 +2,54 @@
 
 <div class="wrapper">
   <section class="contact-up section-padding background-section">
-    <%- include('./partials/contact-info') %>
+    <div class="container mb-70 p-relative text-center">
+      <h5 class="sub-heading mb-15"><%- contact.info.heading %></h5>
+      <h2 class="section-title text-uppercase mb-30">
+        <%- contact.info.title.main %>
+        <strong><%- contact.info.title.bold %></strong>
+      </h2>
+      <p class="sm-title-block mx-auto" style="max-width: 800px">
+        <%- contact.info.description %>
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row gx-5">
+        <% contact.offices.forEach(function(office, index) { %>
+        <div class="col-md-6 mb-5">
+          <div class="text-center mb-5">
+            <div class="subtitle-container mb-30">
+              <h4
+                class="subtitle p-relative line-shap line-shap-after text-uppercase"
+              >
+                <span class="p-10 background-main"><%- office.name %></span>
+              </h4>
+            </div>
+            <div class="contact-info">
+              <p class="sm-title-block mb-4"><%- office.address %></p>
+              <p class="mb-3">
+                <strong>Telefon:</strong><br /><%- office.phone %>
+              </p>
+              <p class="mb-0">
+                <strong>E-posta:</strong><br /><%- office.email %>
+              </p>
+            </div>
+          </div>
+          <iframe
+            src="<%= index === 0 ? 
+                'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.896770407619!2d28.669110111929715!3d40.983741220815325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55ff5148f2fad%3A0xda63f24c25ba1e3c!2zTWFybWFyYSwgSMO8cnJpeWV0IEJsdiBObzoyMjMgRDoxNiwgMzQ1MjQgQmV5bGlrZMO8esO8L8Swc3RhbmJ1bA!5e0!3m2!1sen!2str!4v1740308990022!5m2!1sen!2str' :
+                'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3010.995340235724!2d28.862010955810547!3d41.003475189208984!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb4b70b9eaa3%3A0xeb6dd16acf443e26!2zQmFow6dlbGlldmxlciwgUsO2bnRnZW4gU29rYcSfxLEgTm86MTAsIDM0MTgwIEJhaMOnZWxpZXZsZXIvxLBzdGFuYnVs!5e0!3m2!1sen!2str!4v1740102028256!5m2!1sen!2str'
+              %>"
+            class="w-100"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <% }); %>
+      </div>
+    </div>
   </section>
-  <div class="container"><%- include('./partials/map') %></div>
 </div>

@@ -14,25 +14,17 @@
     },
     "offices": [
       {
-        "name": "İstanbul Merkez Ofis",
-        "address": "Marmara Cd. Hürriyet Blv. <br> İstanbul/Türkiye",
-        "phone": "+90 533 888 88 88"
+        "name": "Merkez Ofis",
+        "address": "Marmara Mahallesi Hürriyet Bulvarı No:223 / 16 Beylikdüzü / İSTANBUL",
+        "phone": "+90 212 422 88 05",
+        "email": "info@kuzeyglobalofficial.com"
       },
       {
-        "name": "Ankara Şube",
-        "address": "Kızılay Meydanı, <br> Ankara/Türkiye",
-        "phone": "+90 533 777 77 77"
-      },
-      {
-        "name": "İzmir Şube",
-        "address": "Alsancak Mahallesi, <br> İzmir/Türkiye",
-        "phone": "+90 533 666 66 66"
+        "name": "Kentsel Dönüşüm Ofisi",
+        "address": "Bahçelievler Mahallesi Röntgen Sokak No: 10/B Bahçelievler / İSTANBUL",
+        "phone": "+90 212 554 55 98\n+90 532 462 59 54",
+        "email": "info@kuzeyglobalofficial.com"
       }
-    ],
-    "map": {
-      "latitude": "41.0082",
-      "longitude": "28.9784",
-      "zoom": "14"
-    }
+    ]
   }
 }

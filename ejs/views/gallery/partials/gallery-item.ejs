@@ -1,27 +1,34 @@
-<div class="work-item induction p-10 border effect-ajax">
-  <div class="img-next-box before-z-index w-100 h-v-60 over-hidden">
+<div class="work-item induction p-10 border">
+  <div
+    class="img-next-box before-z-index w-100 over-hidden"
+    style="height: 400px"
+  >
     <img
       class="cover-bg-img box-shadow"
       src="<%= item.image %>"
       alt="<%= item.title %>"
+      style="object-fit: cover; width: 100%; height: 100%"
     />
   </div>
   <div
-    class="item-info p-relative w-100 d-flex align-items-end p-25 z-index-1 v-dark-head"
+    class="item-info p-relative w-100 d-flex flex-column p-25 z-index-1"
+    style="background-color: rgba(0, 0, 0, 0.5)"
   >
-    <div class="d-flex align-items-center">
+    <div class="d-flex flex-column">
       <div class="text">
         <div class="metas mb-10">
           <% item.categories.forEach(function(category) { %>
-          <span><%= category %></span>
+          <span class="me-2 text-white"><%= category %></span>
           <% }); %>
         </div>
-        <h4 class="sm-title-block sec-title text-uppercase">
-          <%= item.title %>
-        </h4>
-        <h4 class="sm-title-block sec-title">
-          <%= item.description %>
-        </4>
+
+        
+
+        <h5 class="sm-title-block mb-15 fw-600 text-white">
+          <%= item.subtitle %>
+        </h5>
+
+        <p class="description text-white"><%= item.description %></p>
       </div>
     </div>
   </div>

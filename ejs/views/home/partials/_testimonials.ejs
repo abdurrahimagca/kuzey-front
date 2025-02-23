@@ -1,6 +1,6 @@
 <section
   class="testimonials-2 section-margin p-relative dsn-swiper"
-  data-dsn-option='{"autoHeight": "auto", "pagination": {"el": ".swiper-pagination", "clickable": true}}'
+  data-dsn-option='{"autoHeight": "auto", "pagination": {"el": ".swiper-pagination", "clickable": true}, "autoplay": {"delay": 1000, "disableOnInteraction": false}}'
   data-dsn-controller=".testimonial-content"
 >
   <div class="container">
@@ -23,7 +23,7 @@
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <% testimonials.items.forEach(function(item) { %>
-              <div class="swiper-slide testimonial-item"> 
+              <div class="swiper-slide testimonial-item">
                 <p><%= item.text %></p>
                 <div class="author-box d-flex align-items-center mt-20">
                   <div class="author-text">
