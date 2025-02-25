@@ -40,8 +40,8 @@ find ./dist/assets/img/uploads -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -
   width=$(echo $dimensions | cut -d'x' -f1)
   
 
-  target_size=150000
-  initial_quality=60
+  target_size=50000
+  initial_quality=50
   if [ ! -f "$webp_path" ]; then
     echo "Converting: $img (Target size: $(($target_size/1000))KB)"
     
